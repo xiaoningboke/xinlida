@@ -1,0 +1,38 @@
+.bannerny {
+    background: url("../images/bannerny.jpg") no-repeat center center;
+    text-align: center;
+    height: 286px;
+    margin-top: 2px;
+}
+.main-info {
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 1200px;
+}
+.main-infol {
+    float: left;
+    width: 245px;
+}
+.product-list {
+    background: url("../images/product-list.jpg");
+    margin-left: 15px;
+    width: 160px;
+    line-height: 40px;
+    padding-left: 55px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+.info-content {
+    line-height: 26px;
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: left;
+}
+.main-infonc {
+    width: 935px;
+    margin-left: 20px;
+    float: left;
+}

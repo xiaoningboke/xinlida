@@ -1,0 +1,110 @@
+[ 2019-01-28T13:28:03+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/plugins/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014552s ]
+ERR: 无法加载模块:Application
+
+ication
+
+[ 2019-01-28T13:28:03+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/plugins/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+ERR: 无法加载模块:Application
+
+[ 2019-01-28T13:28:47+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/Admin/plugins/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载模块:Application
+
+[ 2019-01-28T13:28:47+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/build/css/app.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+ERR: 无法加载模块:Application
+
+[ 2019-01-28T13:41:11+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/Admin/build/css/app.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+ERR: 无法加载模块:Application
+
+[ 2019-01-28T13:41:11+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/Admin/plugins/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+ERR: 无法加载模块:Application
+
+[ 2019-01-28T13:41:11+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/plugins/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+ERR: 无法加载模块:Application
+
+[ 2019-01-28T13:41:11+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/plugins/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+ERR: 无法加载模块:Application
+
+[ 2019-01-28T13:41:15+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/Admin/plugins/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+ERR: 无法加载模块:Application
+
+[ 2019-01-28T13:41:15+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/Admin/build/css/app.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+ERR: 无法加载模块:Application
+
+[ 2019-01-28T13:41:20+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/Admin/plugins/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+ERR: 无法加载模块:Application
+
+[ 2019-01-28T13:41:20+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/Admin/build/css/app.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+ERR: 无法加载模块:Application
+
+[ 2019-01-28T13:41:20+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/plugins/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001608s ]
+ERR: 无法加载模块:Application
+
+[ 2019-01-28T13:41:39+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/Admin/plugins/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+ERR: 无法加载模块:Application
+
+[ 2019-01-28T13:41:39+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/Admin/build/css/app.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+ERR: 无法加载模块:Application
+
+[ 2019-01-28T13:41:39+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/plugins/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+ERR: 无法加载模块:Application
+
+[ 2019-01-28T13:41:53+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/Admin/plugins/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+ERR: 无法加载模块:Application
+
+[ 2019-01-28T13:41:53+08:00 ] ::1 /xinlida/Application/Admin/View/Index/__PUBLIC__/Admin/build/css/app.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+ERR: 无法加载模块:Application
+
