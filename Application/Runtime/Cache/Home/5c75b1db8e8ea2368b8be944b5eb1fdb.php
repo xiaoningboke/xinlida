@@ -11,8 +11,8 @@
 <div class="content">
     <div class="header">
         <div class="header-top">
-            <div class="ht-left lf">具有十年无缝钢管销售经验，专业销售无缝管现货</div>
-            <div class="ht-right lr">无缝钢管公司销售热线：0635-8228686</div>
+            <div class="ht-left lf"><?php echo ($config["tbby"]); ?></div>
+            <div class="ht-right lr">无缝钢管公司销售热线：<?php echo ($config["xsdh"]); ?></div>
         </div>
         <div class="clear"></div>
         <div class="header-con w">
@@ -88,10 +88,10 @@
     </div>
 <div class="footer">
     <div class="bottombg">
-        <div class="bottomlm">Copyright © 2010-2017 聊城市坤联钢材有限公司 All Rights Reserved.　</div>
+        <div class="bottomlm"><?php echo ($config["dbbq"]); ?></div>
         <div class="bottomlx">
-            销售电话：0635-8228686　8877887　公司传真：0635-8877887　地址：聊城市开发区辽河路东首A2号楼<br/>
-            十年专业无缝钢管现货销售公司　www.yaogangguan.cn　技术支持：千宇软件
+            销售电话：<?php echo ($config["xsdh"]); ?>　公司传真：<?php echo ($config["gscz"]); ?>　地址：<?php echo ($config["gsdz"]); ?><br/>
+            <?php echo ($config["dbby"]); ?>　<?php echo ($config["url"]); ?>　技术支持：千宇软件
         </div>
     </div>
 </div>
