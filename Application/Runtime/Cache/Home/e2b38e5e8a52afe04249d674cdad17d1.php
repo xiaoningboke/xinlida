@@ -17,7 +17,7 @@
         <div class="clear"></div>
         <div class="header-con w">
             <div class="logo lf">
-                <img src="/xinlida/Public/images/logo.png" alt="">
+                <img src="/xinlida/Public/Uploads/<?php echo ($picdata[0][url]); ?>" alt="">
             </div>
             <div class="nav lr">
                 <ul>
@@ -35,8 +35,9 @@
     </div></title>
 
 <div class="main">
-        <div class="bannerny"></div>
-        <div class="main-info">
+    <div class="bannerny" style="background: url('/xinlida/Public/Uploads/<?php echo ($picdata[2][url]); ?>') no-repeat center center;"></div>
+
+    <div class="main-info">
 
             <!--左侧-->
 <div class="main-infol">

@@ -17,7 +17,7 @@
         <div class="clear"></div>
         <div class="header-con w">
             <div class="logo lf">
-                <img src="/xinlida/Public/images/logo.png" alt="">
+                <img src="/xinlida/Public/Uploads/<?php echo ($picdata[0][url]); ?>" alt="">
             </div>
             <div class="nav lr">
                 <ul>
@@ -37,8 +37,9 @@
 <link rel="stylesheet" href="/xinlida/Public/css/product.css">
 
 <div class="main">
-        <div class="bannerny"></div>
-        <div class="main-info">
+    <div class="bannerny" style="background: url('/xinlida/Public/Uploads/<?php echo ($picdata[2][url]); ?>') no-repeat center center;"></div>
+
+    <div class="main-info">
 
             <!--左侧-->
 <div class="main-infol">
@@ -66,9 +67,7 @@
                 <div class="info-title">行情资讯</div>
                 <div class="info-contentn">
                     <div class="nymbx">
-                        您的位置:
-                        <a href="">首页</a>>>
-                        <a href="">首页</a>
+                       
 
                     </div>
                     <div class="info-conbt">

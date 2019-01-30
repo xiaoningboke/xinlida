@@ -11,13 +11,13 @@
 <div class="content">
     <div class="header">
         <div class="header-top">
-            <div class="ht-left lf">具有十年无缝钢管销售经验，专业销售无缝管现货</div>
-            <div class="ht-right lr">无缝钢管公司销售热线：0635-8228686</div>
+            <div class="ht-left lf"><?php echo ($config["tbby"]); ?></div>
+            <div class="ht-right lr">无缝钢管公司销售热线：<?php echo ($config["xsdh"]); ?></div>
         </div>
         <div class="clear"></div>
         <div class="header-con w">
             <div class="logo lf">
-                <img src="/xinlida/Public/images/logo.png" alt="">
+                <img src="/xinlida/Public/Uploads/<?php echo ($picdata[0][url]); ?>" alt="">
             </div>
             <div class="nav lr">
                 <ul>
@@ -37,8 +37,9 @@
 <link rel="stylesheet" href="/xinlida/Public/css/product.css">
 
 <div class="main">
-        <div class="bannerny"></div>
-        <div class="main-info">
+    <div class="bannerny" style="background: url('/xinlida/Public/Uploads/<?php echo ($picdata[2][url]); ?>') no-repeat center center;"></div>
+
+    <div class="main-info">
             <!--左侧-->
 <div class="main-infol">
     <!--产品展示-->
@@ -64,9 +65,7 @@
                 <div class="info-title">产品中心</div>
                 <div class="info-contentn">
                     <div class="nymbx">
-                        您的位置:
-                        <a href="">首页</a>>>
-                        <a href="">首页</a>
+
 
                     </div>
                     <div class="info-conbt">
@@ -86,10 +85,10 @@
     </div>
 <div class="footer">
     <div class="bottombg">
-        <div class="bottomlm">Copyright © 2010-2017 聊城市坤联钢材有限公司 All Rights Reserved.　</div>
+        <div class="bottomlm"><?php echo ($config["dbbq"]); ?></div>
         <div class="bottomlx">
-            销售电话：0635-8228686　8877887　公司传真：0635-8877887　地址：聊城市开发区辽河路东首A2号楼<br/>
-            十年专业无缝钢管现货销售公司　www.yaogangguan.cn　技术支持：千宇软件
+            销售电话：<?php echo ($config["xsdh"]); ?>　公司传真：<?php echo ($config["gscz"]); ?>　地址：<?php echo ($config["gsdz"]); ?><br/>
+            <?php echo ($config["dbby"]); ?>　<?php echo ($config["url"]); ?>　技术支持：千宇软件
         </div>
     </div>
 </div>

@@ -11,13 +11,13 @@
 <div class="content">
     <div class="header">
         <div class="header-top">
-            <div class="ht-left lf">具有十年无缝钢管销售经验，专业销售无缝管现货</div>
-            <div class="ht-right lr">无缝钢管公司销售热线：0635-8228686</div>
+            <div class="ht-left lf"><?php echo ($config["tbby"]); ?></div>
+            <div class="ht-right lr">无缝钢管公司销售热线：<?php echo ($config["xsdh"]); ?></div>
         </div>
         <div class="clear"></div>
         <div class="header-con w">
             <div class="logo lf">
-                <img src="/xinlida/Public/images/logo.png" alt="">
+                <img src="/xinlida/Public/Uploads/<?php echo ($picdata[0][url]); ?>" alt="">
             </div>
             <div class="nav lr">
                 <ul>
@@ -35,37 +35,30 @@
     </div></title>
 
 <div class="main">
-        <div class="bannerny"></div>
-        <div class="main-info">
+    <div class="bannerny" style="background: url('/xinlida/Public/Uploads/<?php echo ($picdata[2][url]); ?>') no-repeat center center;"></div>
+
+    <div class="main-info">
 
             <!--左侧-->
-            <div class="main-infol">
-                <!--产品展示-->
-                <div class="info-title">产品展示</div>
-                <div class="product-list">
-                    <ul>
-                        <li><a href="">无缝钢管</a></li>
-                        <li><a href="">精密无缝钢管</a></li>
-                        <li><a href="">冷拔无缝钢管</a></li>
-                        <li><a href="">热轧无缝钢管</a></li>
-                        <li><a href="">厚壁无缝钢管</a></li>
-                        <li><a href="">小口径无缝钢管</a></li>
-                        <li><a href="">16mn无缝钢管</a></li>
-                        <li><a href=""></a>q345b无缝钢管</li>
-                    </ul>
-                </div>
+<div class="main-infol">
+    <!--产品展示-->
+    <div class="info-title">产品展示</div>
+    <div class="product-list">
+        <ul>
+            <?php if(is_array($fenlei)): foreach($fenlei as $key=>$vo): ?><li><a href="<?php echo U('Home/Index/product',array('id'=>$vo['id']));?>"><?php echo ($vo["name"]); ?></a></li><?php endforeach; endif; ?>
+        </ul>
+    </div>
 
-                <!--联系方式-->
-                <div class="info-title">联系方式</div>
-                <div class="info-content">
-                    销售经理：杨泰彤　李玉春　刘涛<br/>
-                    销售电话：0635-8228686　8877887<br/>
-                    联系手机：18865268888　13863572631<br/>
-                    　　　　　13012680181<br/>
-                    公司传真：0635-8877887<br/>
-                    公司地址：聊城市开发区辽河路东首A2号楼<br/>
-                </div>
-            </div>
+    <!--联系方式-->
+    <div class="info-title">联系方式</div>
+    <div class="info-content">
+        销售经理：<?php echo ($config["xsjj"]); ?><br/>
+        销售电话：<?php echo ($config["xsdh"]); ?><br/>
+        联系手机：<?php echo ($config["lxsj"]); ?><br/>
+        公司传真：<?php echo ($config["gscz"]); ?><br/>
+        公司地址：<?php echo ($config["gsdz"]); ?><br/>
+    </div>
+</div>
 
             <!--右侧-->
             <div class="main-infonc">
@@ -78,10 +71,10 @@
     </div>
 <div class="footer">
     <div class="bottombg">
-        <div class="bottomlm">Copyright © 2010-2017 聊城市坤联钢材有限公司 All Rights Reserved.　</div>
+        <div class="bottomlm"><?php echo ($config["dbbq"]); ?></div>
         <div class="bottomlx">
-            销售电话：0635-8228686　8877887　公司传真：0635-8877887　地址：聊城市开发区辽河路东首A2号楼<br/>
-            十年专业无缝钢管现货销售公司　www.yaogangguan.cn　技术支持：千宇软件
+            销售电话：<?php echo ($config["xsdh"]); ?>　公司传真：<?php echo ($config["gscz"]); ?>　地址：<?php echo ($config["gsdz"]); ?><br/>
+            <?php echo ($config["dbby"]); ?>　<?php echo ($config["url"]); ?>　技术支持：千宇软件
         </div>
     </div>
 </div>
