@@ -8516,3 +8516,76 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
 
+[ 2019-01-30T17:28:20+08:00 ] ::1 /xinlida/index.php/Admin/Index/jbpz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `xld_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001842s ]
+
+[ 2019-01-30T17:28:55+08:00 ] ::1 /xinlida/index.php/Admin/Index/upJbpz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0086s ]
+SQL: UPDATE `xld_config` SET `name`='聊城市坤联钢材有限公司',`xsjj`='销售杨泰彤　李玉春　刘涛经理',`gsdz`='聊城市开发区辽河路东首A2号楼',`xsdh`='0635-8228686　8877887',`lxsj`='18865268888　13863572631 　　　　　13012680181',`gscz`='0635-8877887',`email`='yaogangguan@126.com',`tbby`='具有十年无缝钢管销售经验，专业销售无缝管现货',`dbby`='十年专业无缝钢管现货销售公司',`bah`='网站备案号',`dbbq`='Copyright © 2010-2017 聊城市坤联钢材有限公司 All Rights Reserved.　',`url`='http://localhost/xinlida/Admin',`keywords`='无缝钢管,无缝钢管公司,无缝管',`description`='十年专业无缝钢管现货销售公司致力于无缝钢管,小口径无缝钢管,厚壁无缝钢管,精密无缝钢管的生产与销售,现货式销售保证到货周期短,电话:0635-8228686 18865268888,与国内大型无缝钢管厂家合作一直保持了质量优,价格低的优势,欢迎您咨询最新无缝钢管价格',`tbjs`='' WHERE ( id = 1 ) [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2019-01-30T17:28:56+08:00 ] ::1 /xinlida/index.php/Admin/Index/jbpz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `xld_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+

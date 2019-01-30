@@ -2,7 +2,7 @@
         <html lang="en">
         <head>
             <meta charset="UTF-8">
-            <title>产品中心-{<?php echo ($config["name"]); ?>}</title>
+            <title>联系方式-{<?php echo ($config["name"]); ?>}</title>
             <link rel="stylesheet" href="/xinlida/Public/css/base.css">
             <link rel="stylesheet" href="/xinlida/Public/css/header.css">
             <link rel="stylesheet" href="/xinlida/Public/css/public.css">
@@ -34,12 +34,10 @@
         <div class="clear"></div>
     </div></title>
 
-<link rel="stylesheet" href="/xinlida/Public/css/product.css">
-
 <div class="main">
     <div class="bannerny" style="background: url('/xinlida/Public/Uploads/<?php echo ($picdata[2][url]); ?>') no-repeat center center;"></div>
+        <div class="main-info">
 
-    <div class="main-info">
             <!--左侧-->
 <div class="main-infol">
     <!--产品展示-->
@@ -60,22 +58,22 @@
         公司地址：<?php echo ($config["gsdz"]); ?><br/>
     </div>
 </div>
+
             <!--右侧-->
             <div class="main-infonc">
-                <div class="info-title">产品中心</div>
-                <div class="info-contentn">
-                    <div class="nymbx">
-                    </div>
-                    <div class="info-conbt">
-                        <h1><?php echo ($title); ?></h1>
-                    </div>
-                    <div class="product-page">
-                        <ul>
-                            <?php if(is_array($list)): foreach($list as $key=>$vo): ?><li><a class="a1" href="<?php echo U('Home/Index/chanpin',array('id'=>$vo['id']));?>"><img src="/xinlida/Public/Uploads/<?php echo ($vo["picture"]); ?>" alt="<?php echo ($vo["name"]); ?>" /><br /><?php echo ($vo["name"]); ?></a></li><?php endforeach; endif; ?>
-                        </ul>
-                    </div>
-                    <div class="nynewsfy">
-                        <div class="result page"><?php echo ($page); ?></div>
+                <div class="info-title">联系方式</div>
+                <div class="info-contentn" >
+                    <div class="info-contentn">
+                        <div class="info-conbt">
+                            <h3>无缝钢管公司联系方式</h3>
+                        </div>
+                        联 系 人： <?php echo ($config["xsjj"]); ?><br/>
+                        电　　话： <?php echo ($config["xsdh"]); ?><br/>
+                        手　　机： <?php echo ($config["lxsj"]); ?><br/>
+                        传　　真： <?php echo ($config["gscz"]); ?><br/>
+                        邮　　箱： <?php echo ($config["email"]); ?><br/>
+                        网　　址： <?php echo ($config["url"]); ?><br/>
+                        地　　址： <?php echo ($config["gsdz"]); ?><br/>
                     </div>
                 </div>
             </div>

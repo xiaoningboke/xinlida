@@ -2,7 +2,7 @@
         <html lang="en">
         <head>
             <meta charset="UTF-8">
-            <title>无缝钢管_无缝管_无缝钢管公司 - 十年专业无缝钢管现货销售公司</title>
+            <title>行情资讯-{<?php echo ($config["name"]); ?>}</title>
             <link rel="stylesheet" href="/xinlida/Public/css/base.css">
             <link rel="stylesheet" href="/xinlida/Public/css/header.css">
             <link rel="stylesheet" href="/xinlida/Public/css/public.css">
@@ -27,7 +27,7 @@
                     <li><a href="<?php echo U('Home/Index/xhzy');?>">现货资源</a></li>
                     <li><a href="<?php echo U('Home/Index/kczy');?>">库存资源</a></li>
                     <li><a href="<?php echo U('Home/Index/hqzx');?>">行情资讯</a></li>
-                    <li><a href="#">联系方式</a></li>
+                    <li><a href="<?php echo U('Home/Index/lxfs');?>">联系方式</a></li>
                 </ul>
             </div>
         </div>
@@ -67,11 +67,11 @@
                 <div class="info-title">行情资讯</div>
                 <div class="info-contentn">
                     <div class="nymbx">
-                       
+
 
                     </div>
                     <div class="info-conbt">
-                        <h3>行情资讯</h3>
+                        <h1>行情资讯</h1>
                     </div>
                     <div class="info-nynews">
                         <ul>

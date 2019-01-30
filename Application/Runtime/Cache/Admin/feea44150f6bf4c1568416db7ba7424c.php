@@ -57,7 +57,9 @@
                     <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>公司传真： </label>
                         <div class="col-sm-9"><input type="text" id="website-title" placeholder="公司传真" value="<?php echo ($data["gscz"]); ?>" name="gscz" class="col-xs-10 "></div>
                     </div>
-
+                    <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>邮箱： </label>
+                        <div class="col-sm-9"><input type="text" id="website-title" placeholder="邮箱" value="<?php echo ($data["email"]); ?>" name="email" class="col-xs-10 "></div>
+                    </div>
                     <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>头部标语： </label>
                         <div class="col-sm-9"><input type="text" id="website-title" placeholder="头部标语" value="<?php echo ($data["tbby"]); ?>" name="tbby" class="col-xs-10 "></div>
                     </div>

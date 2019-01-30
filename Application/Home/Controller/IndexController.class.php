@@ -129,4 +129,11 @@ class IndexController extends CommonController {
         $this->assign('data',$data);
         $this->display();
     }
+
+    /**
+     * 显示联系方式
+     */
+    public function lxfs(){
+        $this->display();
+    }
 }

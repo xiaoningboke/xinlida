@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>无缝钢管_无缝管_无缝钢管公司 - 十年专业无缝钢管现货销售公司</title>
+    <title><?php echo ($config["keywords"]); ?>-{<?php echo ($config["name"]); ?>}</title>
     <meta name="keywords" content="<?php echo ($config["keywords"]); ?>" />
     <meta name="description" content="<?php echo ($config["description"]); ?>" />
     <link rel="stylesheet" href="/xinlida/Public/css/base.css">
@@ -30,7 +30,7 @@
                     <li><a href="<?php echo U('Home/Index/xhzy');?>">现货资源</a></li>
                     <li><a href="<?php echo U('Home/Index/kczy');?>">库存资源</a></li>
                     <li><a href="<?php echo U('Home/Index/hqzx');?>">行情资讯</a></li>
-                    <li><a href="#">联系方式</a></li>
+                    <li><a href="<?php echo U('Home/Index/lxfs');?>">联系方式</a></li>
                 </ul>
             </div>
         </div>

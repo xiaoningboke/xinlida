@@ -1,4 +1,4 @@
-<include file="Public/public"/>
+<include file="Public/public" title="公司简介-{{$config.name}}"/>
 <div class="main">
     <div class="bannerny" style="background: url('__PUBLIC__/Uploads/{$picdata[2][url]}') no-repeat center center;"></div>
         <div class="main-info">
@@ -8,7 +8,10 @@
             <!--右侧-->
             <div class="main-infonc">
                 <div class="info-title">公司简介</div>
-                <div class="info-contentn" style="padding-top: 25px;">
+                <div class="info-contentn">
+                    <div class="info-conbt">
+                        <h1>公司简介</h1>
+                    </div>
                     {$gsjj.content}
                 </div>
             </div>

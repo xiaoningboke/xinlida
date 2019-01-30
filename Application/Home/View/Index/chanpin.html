@@ -1,4 +1,4 @@
-<include file="Public/public"/>
+<include file="Public/public" title="{$data.name}-{{$config.name}}"/>
 <div class="main">
     <div class="bannerny" style="background: url('__PUBLIC__/Uploads/{$picdata[2][url]}') no-repeat center center;"></div>
 
@@ -9,7 +9,13 @@
             <!--右侧-->
             <div class="main-infonc">
                 <div class="info-title">{$data.name}</div>
-                <div class="info-contentn" style="padding-top: 25px;">
+                <div class="info-conbt">
+                    <h1>{$data.name}</h1>
+                </div>
+                <div class="info-contentn">
+                    <div class="info-conbt">
+                        <h1>{$data.name}</h1>
+                    </div>
                     {$data.content}
                 </div>
             </div>
