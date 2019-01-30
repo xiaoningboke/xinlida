@@ -8196,3 +8196,323 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002660s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002766s ]
 
+[ 2019-01-30T17:13:03+08:00 ] ::1 /xinlida/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001746s ]
+
+[ 2019-01-30T17:13:06+08:00 ] ::1 /xinlida/index.php/Admin/Index/jbpz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `xld_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2019-01-30T17:13:50+08:00 ] ::1 /xinlida/index.php/Admin/Index/upJbpz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0087s ]
+SQL: UPDATE `xld_config` SET `name`='聊城市坤联钢材有限公司',`xsjj`='销售杨泰彤　李玉春　刘涛经理',`gsdz`='聊城市开发区辽河路东首A2号楼',`xsdh`='0635-8228686　8877887',`lxsj`='18865268888　13863572631 　　　　　13012680181',`gscz`='0635-8877887',`tbby`='具有十年无缝钢管销售经验，专业销售无缝管现货',`dbby`='十年专业无缝钢管现货销售公司',`bah`='网站备案号',`dbbq`='Copyright © 2010-2017 聊城市坤联钢材有限公司 All Rights Reserved.　',`url`='http://localhost/xinlida/Admin',`keywords`='无缝钢管,无缝钢管公司,无缝管',`description`='十年专业无缝钢管现货销售公司致力于无缝钢管,小口径无缝钢管,厚壁无缝钢管,精密无缝钢管的生产与销售,现货式销售保证到货周期短,电话:0635-8228686 18865268888,与国内大型无缝钢管厂家合作一直保持了质量优,价格低的优势,欢迎您咨询最新无缝钢管价格' WHERE ( id = 1 ) [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2019-01-30T17:13:51+08:00 ] ::1 /xinlida/index.php/Admin/Index/jbpz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0189s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `xld_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2019-01-30T17:15:27+08:00 ] ::1 /xinlida/index.php/Admin/Index/jbpz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `xld_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2019-01-30T17:15:53+08:00 ] ::1 /xinlida/index.php/Admin/Index/upJbpz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0076s ]
+SQL: UPDATE `xld_config` SET `name`='聊城市坤联钢材有限公司',`xsjj`='销售杨泰彤　李玉春　刘涛经理',`gsdz`='聊城市开发区辽河路东首A2号楼',`xsdh`='0635-8228686　8877887',`lxsj`='18865268888　13863572631 　　　　　13012680181',`gscz`='0635-8877887',`tbby`='具有十年无缝钢管销售经验，专业销售无缝管现货',`dbby`='十年专业无缝钢管现货销售公司',`bah`='网站备案号',`dbbq`='Copyright © 2010-2017 聊城市坤联钢材有限公司 All Rights Reserved.　',`url`='http://localhost/xinlida/Admin',`keywords`='无缝钢管,无缝钢管公司,无缝管',`description`='十年专业无缝钢管现货销售公司致力于无缝钢管,小口径无缝钢管,厚壁无缝钢管,精密无缝钢管的生产与销售,现货式销售保证到货周期短,电话:0635-8228686 18865268888,与国内大型无缝钢管厂家合作一直保持了质量优,价格低的优势,欢迎您咨询最新无缝钢管价格',`tbjs`='&lt;script&gt;
+alert(12);
+&lt;/script&gt;' WHERE ( id = 1 ) [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2019-01-30T17:15:54+08:00 ] ::1 /xinlida/index.php/Admin/Index/jbpz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `xld_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2019-01-30T17:18:14+08:00 ] ::1 /xinlida/index.php/Admin/Index/upJbpz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0076s ]
+SQL: UPDATE `xld_config` SET `name`='聊城市坤联钢材有限公司',`xsjj`='销售杨泰彤　李玉春　刘涛经理',`gsdz`='聊城市开发区辽河路东首A2号楼',`xsdh`='0635-8228686　8877887',`lxsj`='18865268888　13863572631 　　　　　13012680181',`gscz`='0635-8877887',`tbby`='具有十年无缝钢管销售经验，专业销售无缝管现货',`dbby`='十年专业无缝钢管现货销售公司',`bah`='网站备案号',`dbbq`='Copyright © 2010-2017 聊城市坤联钢材有限公司 All Rights Reserved.　',`url`='http://localhost/xinlida/Admin',`keywords`='无缝钢管,无缝钢管公司,无缝管',`description`='十年专业无缝钢管现货销售公司致力于无缝钢管,小口径无缝钢管,厚壁无缝钢管,精密无缝钢管的生产与销售,现货式销售保证到货周期短,电话:0635-8228686 18865268888,与国内大型无缝钢管厂家合作一直保持了质量优,价格低的优势,欢迎您咨询最新无缝钢管价格',`tbjs`='&lt;script type=&quot;text/javascript&quot;&gt;
+alert(12)	
+&lt;/script&gt;' WHERE ( id = 1 ) [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010166s ]
+
+[ 2019-01-30T17:18:15+08:00 ] ::1 /xinlida/index.php/Admin/Index/jbpz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `xld_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2019-01-30T17:19:25+08:00 ] ::1 /xinlida/index.php/Admin/Index/upJbpz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0087s ]
+SQL: UPDATE `xld_config` SET `name`='聊城市坤联钢材有限公司',`xsjj`='销售杨泰彤　李玉春　刘涛经理',`gsdz`='聊城市开发区辽河路东首A2号楼',`xsdh`='0635-8228686　8877887',`lxsj`='18865268888　13863572631 　　　　　13012680181',`gscz`='0635-8877887',`tbby`='具有十年无缝钢管销售经验，专业销售无缝管现货',`dbby`='十年专业无缝钢管现货销售公司',`bah`='网站备案号',`dbbq`='Copyright © 2010-2017 聊城市坤联钢材有限公司 All Rights Reserved.　',`url`='http://localhost/xinlida/Admin',`keywords`='无缝钢管,无缝钢管公司,无缝管',`description`='十年专业无缝钢管现货销售公司致力于无缝钢管,小口径无缝钢管,厚壁无缝钢管,精密无缝钢管的生产与销售,现货式销售保证到货周期短,电话:0635-8228686 18865268888,与国内大型无缝钢管厂家合作一直保持了质量优,价格低的优势,欢迎您咨询最新无缝钢管价格',`tbjs`='alert(12)' WHERE ( id = 1 ) [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2019-01-30T17:19:26+08:00 ] ::1 /xinlida/index.php/Admin/Index/jbpz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `xld_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2019-01-30T17:19:38+08:00 ] ::1 /xinlida/index.php/Admin/Index/upJbpz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [2] Missing argument 1 for I(), called in D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php on line 33 and defined D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name D:\phpStudy\PHPTutorial\WWW\xinlida\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0079s ]
+SQL: UPDATE `xld_config` SET `name`='聊城市坤联钢材有限公司',`xsjj`='销售杨泰彤　李玉春　刘涛经理',`gsdz`='聊城市开发区辽河路东首A2号楼',`xsdh`='0635-8228686　8877887',`lxsj`='18865268888　13863572631 　　　　　13012680181',`gscz`='0635-8877887',`tbby`='具有十年无缝钢管销售经验，专业销售无缝管现货',`dbby`='十年专业无缝钢管现货销售公司',`bah`='网站备案号',`dbbq`='Copyright © 2010-2017 聊城市坤联钢材有限公司 All Rights Reserved.　',`url`='http://localhost/xinlida/Admin',`keywords`='无缝钢管,无缝钢管公司,无缝管',`description`='十年专业无缝钢管现货销售公司致力于无缝钢管,小口径无缝钢管,厚壁无缝钢管,精密无缝钢管的生产与销售,现货式销售保证到货周期短,电话:0635-8228686 18865268888,与国内大型无缝钢管厂家合作一直保持了质量优,价格低的优势,欢迎您咨询最新无缝钢管价格',`tbjs`='' WHERE ( id = 1 ) [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2019-01-30T17:19:39+08:00 ] ::1 /xinlida/index.php/Admin/Index/jbpz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `xld_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+

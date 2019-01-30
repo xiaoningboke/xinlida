@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>无缝钢管_无缝管_无缝钢管公司 - 十年专业无缝钢管现货销售公司</title>
+    <meta name="keywords" content="<?php echo ($config["keywords"]); ?>" />
+    <meta name="description" content="<?php echo ($config["description"]); ?>" />
     <link rel="stylesheet" href="/xinlida/Public/css/base.css">
     <link rel="stylesheet" href="/xinlida/Public/css/header.css">
     <link rel="stylesheet" href="/xinlida/Public/css/index.css">
+    <script type="text/javascript"> <?php echo ($config["tbjs"]); ?>	</script>
 </head>
 <body>
 <div class="content">

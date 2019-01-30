@@ -68,14 +68,20 @@
                         <div class="col-sm-9"><input type="text" id="website-title" placeholder="网站备案号" value="<?php echo ($data["bah"]); ?>" name="bah" class="col-xs-10 "></div>
                     </div>
                     <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>底部版权： </label>
-                        <div class="col-sm-9"><input type="text" id="website-title" placeholder="底部版权" value="<?php echo ($data["dbbq"]); ?>" name="dbbq" class="col-xs-10 "></div>
-                    </div>
+                    <div class="col-sm-9"><input type="text" id="website-title" placeholder="底部版权" value="<?php echo ($data["dbbq"]); ?>" name="dbbq" class="col-xs-10 "></div>
+                </div>
                     <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>网址： </label>
                         <div class="col-sm-9"><input type="text" id="website-title" placeholder="网址" value="<?php echo ($data["url"]); ?>" name="url" class="col-xs-10 "></div>
                     </div>
-<!--                    <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>统计代码： </label>
-                        <div class="col-sm-9"><textarea class="textarea"></textarea></div>
-                    </div>-->
+                    <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>关键字： </label>
+                        <div class="col-sm-9"><input type="text" id="website-title" placeholder="关键字" value="<?php echo ($data["keywords"]); ?>" name="keywords" class="col-xs-10 "></div>
+                    </div>
+                    <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>网站描述： </label>
+                        <div class="col-sm-9"><input type="text" id="website-title" placeholder="网站描述" value="<?php echo ($data["description"]); ?>" name="description" class="col-xs-10 "></div>
+                    </div>
+                    <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>头部js代码： </label>
+                        <div class="col-sm-9"><textarea class="textarea" name="tbjs"><?php echo ($data["tbjs"]); ?></textarea></div>
+                    </div>
                     <div class="Button_operation">
                         <button onclick="article_save_submit();" class="btn btn-primary radius" type="submit"><i class="fa fa-save "></i>&nbsp;保存</button>
                     </div>
