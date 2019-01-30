@@ -260,7 +260,7 @@ class IndexController extends Controller {
     }
 
     /**
-     * 显示产品分类
+     * 显示产品
      */
     public function productList(){
         $product = new ProductModel();

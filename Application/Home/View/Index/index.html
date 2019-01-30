@@ -1,78 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>无缝钢管_无缝管_无缝钢管公司 - 十年专业无缝钢管现货销售公司</title>
-	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/header.css">
-	<link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-	<div class="content">
-		<div class="header">
-			<div class="header-top">
-				<div class="ht-left lf">具有十年无缝钢管销售经验，专业销售无缝管现货</div>
-				<div class="ht-right lr">无缝钢管公司销售热线：0635-8228686</div>
-			</div>
-			<div class="clear"></div>
-			<div class="header-con w">
-				<div class="logo lf">
-					<img src="images/logo.png" alt="">
-				</div>
-				<div class="nav lr">
-					<ul>
-						<li><a href="#">首页</a></li>
-						<li><a href="#">公司简介</a></li>
-						<li><a href="#">产品中心</a></li>
-						<li><a href="#">现货资源</a></li>
-						<li><a href="#">库存资源</a></li>
-						<li><a href="#">行情资讯</a></li>
-						<li><a href="#">联系方式</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="clear"></div>
-		</div>
-		<div class="main">
+<include file="Public/header"/>
+<div class="main">
 			<div class="banner"></div>
 			<div class="main-info w">
 				<div class="cpzs">
 					<div class="info-title">产品展示</div>
 					<div class="product-list">
 						<ul>
-							<li><a href="">无缝钢管</a></li>
-							<li><a href="">精密无缝钢管</a></li>
-							<li><a href="">冷拔无缝钢管</a></li>
-							<li><a href="">热轧无缝钢管</a></li>
-							<li><a href="">厚壁无缝钢管</a></li>
-							<li><a href="">小口径无缝钢管</a></li>
-							<li><a href="">16mn无缝钢管</a></li>
-							<li><a href=""></a>q345b无缝钢管</li>
+							<foreach name="fenlei" item="vo" >
+								<li><a href="{:U('Home/Index/product',array('id'=>$vo['id']))}">{$vo.name}</a></li>
+							</foreach>
 						</ul>
 					</div>
 				</div>
 				<div class="gsjj">
 					<div class="info-title">公司简介</div>
 					<div class="info-content">
-						<img src="images/aboutpic.jpg" alt="" align="left" style="padding-right: 10px">
-						　聊城市坤联钢材有限公司是山东地区专业从事无缝钢管生产、加工、销售的企业，公司自2010年成立以来一直以优质的产品、高效的服务、低廉的价格被广大的客户所认可，得到了业界内外的一致好评。
-			　　经过多年的经营发展，公司现经营的产品主要有无缝管、焊接钢管、异型钢管三个系列，常年备有现货库存，材质多，规格齐全，完全可以达到客户一站式采购的需要。
-			　　为保证客户需求，公司设有库存碳钢、低合金、高压合金无缝管、焊管库存，碳钢材质：20#、45#，低合金材质：Q345b、20cr、40cr、27simn、高压合金材质：12cr1mov、15crmo、15crmog、12cr1movg等。
-			　　本公司与国内的大型厂家建立了良好的合作关系，提供湖北新冶钢、天津钢管集团、包钢、宝钢、安钢、攀钢等钢厂生产的∮4mm-1220mm×1mm-120mm优质产品，可做无氧退火工艺处理。
-			　　 十年的无缝钢管现货销售经验让公司更加认识到产品质量的重要性，我们坚持把产品质量做为企业生存的第一要素，从产品生产、加工、物流等各个方面严格把关，保证了客户能够得到满意的产品。
+						{$gsjj.content}
 					</div>
 				</div>
 				<div class="lxfs">
 					<div class="info-title">联系方式</div>
 					<div class="info-content">
-						<img src="images/contactpic.jpg" alt="">
-						<h4>聊城市坤联钢材有限公司</h4>
-						销售经理：杨泰彤　李玉春　刘涛<br/>
-						销售电话：0635-8228686　8877887<br/>
-						联系手机：18865268888　13863572631<br/>
-						　　　　　13012680181<br/>
-						公司传真：0635-8877887<br/>
-						公司地址：聊城市开发区辽河路东首A2号楼<br/>
+						<img src="__PUBLIC__/images/contactpic.jpg" alt="">
+						<h4>{$config.name}</h4>
+						销售经理：{$config.xsjj}<br/>
+						销售电话：{$config.xsdh}<br/>
+						联系手机：{$config.lxsj}<br/>
+						公司传真：{$config.gscz}<br/>
+						公司地址：{$config.gsdz}<br/>
 					</div>
 				</div>
 			</div>
@@ -88,22 +43,9 @@
 									<table cellspacing="0" cellpadding="4" width="2150" border="0" >
 										<tbody>
 										<tr>
-											<td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-											<td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-											<td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-											<td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-											<td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-											<td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-											<td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-											<td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-											<td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-											<td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-											<td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-											<td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-											<td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-											<td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-											<td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-											<td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
+											<foreach name="cp" item="vo" >
+												<td align="middle"><a class="a1" href="#"><img src="__PUBLIC__/Uploads/{$vo.picture}" alt="{$vo.name}" /><br />{$vo.name}</a></td>
+											</foreach>
 										</tr>
 										</tbody>
 									</table></td>
@@ -122,22 +64,9 @@
 						   <table cellspacing="0" cellpadding="4" width="2150" border="0" id="tupian">
 							<tbody>
 							 <tr>
-							  <td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-							  <td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-							  <td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-							  <td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-							  <td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-							  <td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-							  <td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-							  <td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-							  <td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-							  <td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-							  <td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-							  <td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-							  <td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-							  <td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-							  <td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
-							  <td align="middle"><a class="a1" href="#"><img src="images/thumb_2016101581544089.jpg" /><br />无缝钢管</a></td>
+								 <foreach name="cp" item="vo" >
+									 <td align="middle"><a class="a1" href="#"><img src="__PUBLIC__/Uploads/{$vo.picture}" alt="{$vo.name}" /><br />{$vo.name}</a></td>
+								 </foreach>
 							 </tr>
 							</tbody>
 						   </table></td>
@@ -154,12 +83,9 @@
 					<div class="info-title">热点资讯</div>
 					<div class="news-content">
 						<ul>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
+							<foreach name="rdzx" item="vo" >
+								<li><a href="#">{$vo.title}</a><span>{$vo.time}</span></li>
+							</foreach>
 						</ul>
 					</div>
 				</div>
@@ -167,12 +93,9 @@
 					<div class="info-title">行情关注</div>
 					<div class="news-content">
 						<ul>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
+							<foreach name="hqgz" item="vo" >
+								<li><a href="#">{$vo.title}</a><span>{$vo.time}</span></li>
+							</foreach>
 						</ul>
 					</div>
 				</div>
@@ -180,12 +103,9 @@
 					<div class="info-title">知识汇编</div>
 					<div class="news-content">
 						<ul>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
-							<li><a href="#">冷轧大口径无缝钢管制造技术</a><span>10-31</span></li>
+							<foreach name="zshb" item="vo" >
+								<li><a href="#">{$vo.title}</a><span>{$vo.time}</span></li>
+							</foreach>
 						</ul>
 					</div>
 				</div>
@@ -241,19 +161,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer">
-			<div class="bottombg">
-				<div class="bottomlm">Copyright © 2010-2017 聊城市坤联钢材有限公司 All Rights Reserved.　</div>
-				<div class="bottomlx">
-					销售电话：0635-8228686　8877887　公司传真：0635-8877887　地址：聊城市开发区辽河路东首A2号楼<br/>
-					十年专业无缝钢管现货销售公司　www.yaogangguan.cn　技术支持：千宇软件
-				</div>
-			</div>
-		</div>
-	</div>
-</body>
-</html>
-
+		<include file="Public/footer"/>
   <script>
       var speed1=25//速度数值越大速度越慢
       document.getElementById("demo2").innerHTML=document.getElementById("demo1").innerHTML

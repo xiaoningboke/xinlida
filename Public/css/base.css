@@ -1,0 +1,49 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote{ margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+
+html {overflow-y: scroll;}
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+.lf{
+	float: left;
+}
+.lr{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+a:hover {
+	color: #CD0001; 
+	text-decoration: underlin;
+}
+.info-title{
+	background: url(../images/info-title.jpg);
+    line-height: 39px;
+    height: 39px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    padding-left: 5px;
+}
+
+img {
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}

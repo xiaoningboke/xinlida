@@ -1,0 +1,48 @@
+<include file="Public/public"/>
+<link rel="stylesheet" href="__PUBLIC__/css/product.css">
+
+<div class="main">
+        <div class="bannerny"></div>
+        <div class="main-info">
+
+            <include file="Public/left"/>
+
+            <!--右侧-->
+            <div class="main-infonc">
+                <div class="info-title">行情资讯</div>
+                <div class="info-contentn">
+                    <div class="nymbx">
+                        您的位置:
+                        <a href="">首页</a>>>
+                        <a href="">首页</a>
+
+                    </div>
+                    <div class="info-conbt">
+                        <h3>行情资讯</h3>
+                    </div>
+                    <div class="info-nynews">
+                        <ul>
+                            <foreach name="list" item="vo" >
+                                <li><a href="{:U('Home/Index/news',array('id'=>$vo['id']))}">{$vo.title}　<span>{$vo.time}</span></a></li>
+                            </foreach>
+                        </ul>
+                    </div>
+                    <div class="nynewsfy">
+                        <div class="result page">{$page}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="bottombg">
+            <div class="bottomlm">Copyright © 2010-2017 聊城市坤联钢材有限公司 All Rights Reserved.　</div>
+            <div class="bottomlx">
+                销售电话：0635-8228686　8877887　公司传真：0635-8877887　地址：聊城市开发区辽河路东首A2号楼<br/>
+                十年专业无缝钢管现货销售公司　www.yaogangguan.cn　技术支持：千宇软件
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

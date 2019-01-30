@@ -1,0 +1,22 @@
+<!--左侧-->
+<div class="main-infol">
+    <!--产品展示-->
+    <div class="info-title">产品展示</div>
+    <div class="product-list">
+        <ul>
+            <foreach name="fenlei" item="vo" >
+                <li><a href="{:U('Home/Index/product',array('id'=>$vo['id']))}">{$vo.name}</a></li>
+            </foreach>
+        </ul>
+    </div>
+
+    <!--联系方式-->
+    <div class="info-title">联系方式</div>
+    <div class="info-content">
+        销售经理：{$config.xsjj}<br/>
+        销售电话：{$config.xsdh}<br/>
+        联系手机：{$config.lxsj}<br/>
+        公司传真：{$config.gscz}<br/>
+        公司地址：{$config.gsdz}<br/>
+    </div>
+</div>
