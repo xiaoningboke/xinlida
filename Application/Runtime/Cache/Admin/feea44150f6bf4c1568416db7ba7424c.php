@@ -25,6 +25,7 @@
     <script src="/xinlida/Public/Admin/assets/js/ace-elements.min.js"></script>
     <script src="/xinlida/Public/Admin/assets/js/ace.min.js"></script>
     <script src="/xinlida/Public/Admin/js/H-ui.js" type="text/javascript"></script>
+    <script src="/xinlida/Public/Admin/js/displayPart.js" type="text/javascript"></script>
 
     <title>系统设置</title>
 

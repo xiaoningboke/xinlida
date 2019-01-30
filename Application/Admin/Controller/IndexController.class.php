@@ -3,6 +3,7 @@ namespace Admin\Controller;
 use Admin\Model\ArticleModel;
 use Admin\Model\FenleiModel;
 use Admin\Model\ProductModel;
+use Admin\Model\YqljModel;
 use Think\Controller;
 
 use Admin\Model\ConfigModel;
@@ -341,6 +342,76 @@ class IndexController extends Controller {
         }else{// 上传成功
             return $info;
             $this->error('上传成功！');
+        }
+    }
+
+    /**
+     * 显示添加友情链接
+     */
+    public function yqlj(){
+        $this->display();
+    }
+
+    /**
+     * 添加友情链接
+     */
+    public function addYqlj(){
+        $data = I();
+        $yqlj = new YqljModel();
+        $i = $yqlj->addYqlj($data);
+        if ($i>0){
+            $this->success("添加成功");
+        }else{
+            $this->error("添加失败");
+        };
+    }
+
+    /**
+     * 友情链接列表
+     */
+    public function yqljList(){
+        $yqlj = new YqljModel();
+        $data = $yqlj->yqljList();
+        $this->assign('data',$data);
+        $this->display();
+    }
+
+    /**
+     * 显示修改友情链接
+     */
+    public function findYqlj(){
+        $id = I(id);
+        $yqlj = new YqljModel();
+        $data = $yqlj->findYqlj($id);
+        $this->assign('data',$data);
+        $this->display();
+    }
+
+    /**
+     * 修改友情链接
+     */
+    public function exitYqlj(){
+        $data = I();
+        $yqlj = new YqljModel();
+        $i = $yqlj->exitYqlj($data);
+        if ($i>0){
+            $this->success("修改成功");
+        }else{
+            $this->error("修改失败");
+        }
+    }
+
+    /**
+     * 删除友情链接
+     */
+    public function delYqlj(){
+        $id = I(id);
+        $yqlj = new YqljModel();
+        $i = $yqlj->delYqlj($id);
+        if ($i>0){
+            $this->success("删除成功");
+        }else{
+            $this->error("删除失败");
         }
     }
 
