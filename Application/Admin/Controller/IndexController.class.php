@@ -2,6 +2,7 @@
 namespace Admin\Controller;
 use Admin\Model\ArticleModel;
 use Admin\Model\FenleiModel;
+use Admin\Model\PictureModel;
 use Admin\Model\ProductModel;
 use Admin\Model\YqljModel;
 use Think\Controller;
@@ -325,25 +326,7 @@ class IndexController extends Controller {
         }
     }
 
-    ////////////////////////////////////////////文件上传/////////////////////////////////////////////
-    public function upload(){
-        $upload = new \Think\Upload();// 实例化上传类
-        $upload->maxSize = 3145728 ;// 设置附件上传大小
-        $upload->exts = array('jpg', 'gif', 'png', 'jpeg');
-        // 设置附件上传类型
-        $upload->rootPath = './Public/Uploads/'; // 设置附件上传根目录
-        $upload->savePath = ''; // 设置附件上传（子）目录
-        $upload->replace = false;//如果存在同名文件就覆盖
-        $upload->autoSub = false;
-        //不使用子目录保存上传文件，即上传到指定的文件夹
-        $info = $upload->upload();
-        if(!$info) {// 上传错误提示错误信息
-            $this->error($upload->getError());
-        }else{// 上传成功
-            return $info;
-            $this->error('上传成功！');
-        }
-    }
+
 
     /**
      * 显示添加友情链接
@@ -412,6 +395,66 @@ class IndexController extends Controller {
             $this->success("删除成功");
         }else{
             $this->error("删除失败");
+        }
+    }
+
+    /**
+     *显示图片配置页面
+     */
+    public function picture(){
+        $pic = new PictureModel();
+        $data = $pic->sel();
+        $this->assign('data',$data);
+        $this->display();
+    }
+
+    /**
+     * 显示更换图片
+     */
+    public function findpic(){
+        $id = I("id");
+        $pic= new PictureModel();
+        $data = $pic->findpic($id);
+        $this->assign('data',$data);
+        $this->display();
+    }
+
+    /**
+     * 修改图片
+     */
+    public function exitPic(){
+        $pic = $this->upload();
+        if(!is_null($pic)){
+            $data[id] = $_POST[id];
+            $data[url] = $pic[url][savename];
+            $pic = new PictureModel();
+            $i = $pic->exitpic($data);
+            if ($i>0){
+                $this->success("修改成功",U('Admin/Index/picture'));
+            }else{
+                $this->error("修改失败");
+            }
+        }
+    }
+
+
+    ////////////////////////////////////////////文件上传/////////////////////////////////////////////
+    public function upload(){
+        $upload = new \Think\Upload();// 实例化上传类
+        $upload->maxSize = 3145728 ;// 设置附件上传大小
+        $upload->exts = array('jpg', 'gif', 'png', 'jpeg');
+        // 设置附件上传类型
+        $upload->rootPath = './Public/Uploads/'; // 设置附件上传根目录
+        $upload->savePath = ''; // 设置附件上传（子）目录
+        $upload->replace = false;//如果存在同名文件就覆盖
+        $upload->autoSub = false;
+        //不使用子目录保存上传文件，即上传到指定的文件夹
+        $info = $upload->upload();
+        if(!$info) {// 上传错误提示错误信息
+            $this->error($upload->getError());
+        }else{// 上传成功
+            return $info;
+            $this->error('上传成功！');
         }
     }
 
