@@ -63,8 +63,13 @@
             <!--右侧-->
             <div class="main-infonc">
                 <div class="info-title"><?php echo ($data["name"]); ?></div>
-                <div class="info-contentn" style="padding-top: 25px;">
+                <div class="info-conbt">
                     <h1><?php echo ($data["name"]); ?></h1>
+                </div>
+                <div class="info-contentn">
+                    <div class="info-conbt">
+                        <h1><?php echo ($data["name"]); ?></h1>
+                    </div>
                     <?php echo ($data["content"]); ?>
                 </div>
             </div>

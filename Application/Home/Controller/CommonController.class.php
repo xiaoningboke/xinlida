@@ -21,5 +21,12 @@ class CommonController extends Controller{
         $this->assign('fenlei',$fenleiData);
         $this->assign('config',$configData);
         $this->assign('picdata',$picdata);
+
+
+        if (ismobile()) {
+            //设置默认默认主题为 Mobile
+            C('DEFAULT_V_LAYER','Mobile');
+        }
+
     }
 }
