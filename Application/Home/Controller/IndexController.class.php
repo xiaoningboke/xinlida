@@ -2,6 +2,7 @@
 namespace Home\Controller;
 use Home\Model\ArticleModel;
 use Home\Model\ProductModel;
+use Home\Model\YqljModel;
 use Think\Controller;
 
 class IndexController extends CommonController {
@@ -16,6 +17,9 @@ class IndexController extends CommonController {
         $zshb = $article->selFenlei(2);//知识汇编
         $product = new ProductModel();
         $cp = $product->productList();//获取公司产品
+        $yqlj = new YqljModel();
+        $yqljData = $yqlj->yqljList();
+        $this->assign('yqlj',$yqljData);
         $this->assign('gsjj',$gsjj);
         $this->assign('rdzx',$rdzx);
         $this->assign('hqgz',$hqgz);

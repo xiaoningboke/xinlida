@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c956ba43-8630-4f30-bc3a-fbd5f0b04573" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Application/Admin/Model/YqljModel.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Admin/View/Index/YqljList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Admin/View/Index/findYqlj.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Admin/View/Index/yqlj.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/eff191f6-208d-41c1-8813-19490011dcb5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/eff191f6-208d-41c1-8813-19490011dcb5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Home/Model/YqljModel.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/feea44150f6bf4c1568416db7ba7424c.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/feea44150f6bf4c1568416db7ba7424c.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/hqzx.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Index/hqzx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Index/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/2f4de9210f0faaf5e0fea0bc42744adb.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/2f4de9210f0faaf5e0fea0bc42744adb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/5c75b1db8e8ea2368b8be944b5eb1fdb.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/5c75b1db8e8ea2368b8be944b5eb1fdb.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/19_01_30.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/19_01_30.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/19_01_30.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Home/19_01_30.log" afterDir="false" />
     </list>
@@ -77,59 +76,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="404" column="13" selection-start-line="404" selection-start-column="13" selection-end-line="404" selection-end-column="13" />
+            <state relative-caret-position="600">
+              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding>
-                <element signature="e#34#63#0#PHP" expanded="true" />
+                <element signature="e#33#61#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-180">
+              <caret line="110" column="22" lean-forward="true" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
+              <folding>
+                <element signature="e#3379#3385#0" expanded="true" />
+                <element signature="e#3385#3391#0" expanded="true" />
+                <element signature="e#3391#3397#0" expanded="true" />
+                <element signature="e#3397#3403#0" expanded="true" />
+                <element signature="e#3403#3409#0" expanded="true" />
+                <element signature="e#3409#3415#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/YqljList.html">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Model/YqljModel.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="23" column="61" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/Model/YqljModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="61" column="27" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/Model/FenleiModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="67" column="5" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="67" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/Model/ProductModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="338" column="102" selection-start-line="338" selection-start-column="94" selection-end-line="338" selection-end-column="102" />
+            <state relative-caret-position="120">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -158,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html" />
         <option value="$PROJECT_DIR$/Application/Admin/Model/ConfigModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Runtime/Cache/Admin/9fedbf597f13894fff8a203a7c80434c.php" />
         <option value="$PROJECT_DIR$/Application/Admin/View/Index/gsjj.html" />
@@ -191,13 +170,9 @@
         <option value="$PROJECT_DIR$/Public/css/base.css" />
         <option value="$PROJECT_DIR$/Application/Home/View/public/header.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/public/public.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
-        <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index/product.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/public/left.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index/chanpin.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index/gsjj.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index/hqzx.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index/kczy.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index/news.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index/xhzy.html" />
@@ -209,6 +184,11 @@
         <option value="$PROJECT_DIR$/Application/Admin/View/Index/findYqlj.html" />
         <option value="$PROJECT_DIR$/Application/Admin/Model/YqljModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/hqzx.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/product.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Model/YqljModel.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
       </list>
     </option>
   </component>
@@ -254,29 +234,50 @@
               <item name="xinlida" type="462c0819:PsiDirectoryNode" />
               <item name="Application" type="462c0819:PsiDirectoryNode" />
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xinlida" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
               <item name="xinlida" type="462c0819:PsiDirectoryNode" />
               <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xinlida" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xinlida" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xinlida" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
               <item name="xinlida" type="462c0819:PsiDirectoryNode" />
               <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
               <item name="Index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xinlida" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -294,9 +295,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Home\Model" />
       <recent name="D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\View\Index" />
       <recent name="D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Home\View\Index" />
-      <recent name="D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Home\Model" />
       <recent name="D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Common\Common" />
     </key>
   </component>
@@ -337,7 +338,7 @@
       <workItem from="1548720055447" duration="6585000" />
       <workItem from="1548750350710" duration="5209000" />
       <workItem from="1548806115464" duration="13990000" />
-      <workItem from="1548826067796" duration="5326000" />
+      <workItem from="1548826067796" duration="7010000" />
     </task>
     <task id="LOCAL-00001" summary="基本网页以及基本配置">
       <created>1548314279344</created>
@@ -374,11 +375,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548827785979</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="后台友情链接">
+      <created>1548831759610</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1548831759610</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48073000" />
+    <option name="totallyTimeSpent" value="49757000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,16 +430,10 @@
     <MESSAGE value="基本网页以及基本配置" />
     <MESSAGE value="后台初步完工" />
     <MESSAGE value="配置前台页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置前台页面" />
+    <MESSAGE value="后台友情链接" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台友情链接" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/gsjj.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -644,79 +646,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660">
-          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-          <folding>
-            <element signature="e#33#61#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/public/left.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/chanpin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/gsjj.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/hqzx.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/kczy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/xhzy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -782,6 +715,87 @@
           <caret line="404" column="13" selection-start-line="404" selection-start-column="13" selection-end-line="404" selection-end-column="13" />
           <folding>
             <element signature="e#34#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/chanpin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/gsjj.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/hqzx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/kczy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/xhzy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/YqljModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="e#33#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="110" column="22" lean-forward="true" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
+          <folding>
+            <element signature="e#3379#3385#0" expanded="true" />
+            <element signature="e#3385#3391#0" expanded="true" />
+            <element signature="e#3391#3397#0" expanded="true" />
+            <element signature="e#3397#3403#0" expanded="true" />
+            <element signature="e#3403#3409#0" expanded="true" />
+            <element signature="e#3409#3415#0" expanded="true" />
           </folding>
         </state>
       </provider>

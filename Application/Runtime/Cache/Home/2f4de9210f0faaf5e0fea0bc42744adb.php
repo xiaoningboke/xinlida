@@ -84,15 +84,15 @@
             </div>
         </div>
     </div>
-    <div class="footer">
-        <div class="bottombg">
-            <div class="bottomlm">Copyright © 2010-2017 聊城市坤联钢材有限公司 All Rights Reserved.　</div>
-            <div class="bottomlx">
-                销售电话：0635-8228686　8877887　公司传真：0635-8877887　地址：聊城市开发区辽河路东首A2号楼<br/>
-                十年专业无缝钢管现货销售公司　www.yaogangguan.cn　技术支持：千宇软件
-            </div>
+<div class="footer">
+    <div class="bottombg">
+        <div class="bottomlm">Copyright © 2010-2017 聊城市坤联钢材有限公司 All Rights Reserved.　</div>
+        <div class="bottomlx">
+            销售电话：0635-8228686　8877887　公司传真：0635-8877887　地址：聊城市开发区辽河路东首A2号楼<br/>
+            十年专业无缝钢管现货销售公司　www.yaogangguan.cn　技术支持：千宇软件
         </div>
     </div>
+</div>
 </div>
 </body>
 </html>

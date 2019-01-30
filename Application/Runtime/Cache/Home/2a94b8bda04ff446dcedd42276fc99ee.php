@@ -137,48 +137,7 @@
 				<div class="main-link">
 					<div class="info-title">友情链接</div>
 					<div class="info-link">
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
-						<a href="#">金属激光切割机</a>
+						<?php if(is_array($yqlj)): foreach($yqlj as $key=>$vo): ?><a href="<?php echo ($vo["url"]); ?>"><?php echo ($vo["name"]); ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><?php endforeach; endif; ?>
 					</div>
 				</div>
 			</div>
