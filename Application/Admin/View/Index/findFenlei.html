@@ -1,0 +1,32 @@
+<include file="Public/header"/>
+<body>
+<div class="margin clearfix">
+    <div class="stystems_style">
+        <div class="tabbable">
+
+            <div class="tab-content">
+                <form action="{:U('Admin/Index/exitFenlei')}" method="post">
+                    <input type="hidden" name="id" value="{$data.id}">
+                <div id="home" class="tab-pane active">
+                    <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>分类名称： </label>
+                        <div class="col-sm-9"><input type="text" id="website-title" placeholder="分类名称"  value="{$data.name}" name="name" class="col-xs-10" ></div>
+                    </div>
+                    <div class="Button_operation">
+                        <button onclick="article_save_submit();" class="btn btn-primary radius" type="submit"><i class="fa fa-save "></i>&nbsp;保存</button>
+                    </div>
+                </div>
+                </form>
+                <div id="profile" class="tab-pane ">
+
+                </div>
+                <div id="dropdown" class="tab-pane">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
+

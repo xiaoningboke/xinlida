@@ -1,0 +1,56 @@
+<include file="Public/header"/>
+<body>
+<div class="margin clearfix">
+    <div class="stystems_style">
+        <div class="tabbable">
+
+            <div class="tab-content">
+                <form action="{:U('Admin/Index/upJbpz')}" method="post">
+                <div id="home" class="tab-pane active">
+                    <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>公司名称： </label>
+                        <div class="col-sm-9"><input type="text" id="website-title" placeholder="公司名称" value="{$data.name}" name="name" class="col-xs-10" ></div>
+                    </div>
+                    <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>销售经理： </label>
+                        <div class="col-sm-9"><input type="text" id="website-title" placeholder="销售经理" value="{$data.xsjj}" name="xsjj" class="col-xs-10 "></div>
+                    </div>
+                    <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>销售电话： </label>
+                        <div class="col-sm-9"><input type="text" id="website-title" placeholder="销售电话" value="{$data.xsdh}" name="xsdh" class="col-xs-10"></div>
+                    </div>
+                    <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>联系手机： </label>
+                        <div class="col-sm-9"><input type="text" id="website-title" placeholder="联系手机" value="{$data.lxsj}" name="lxsj" class="col-xs-10"></div>
+                    </div>
+                    <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>公司传真： </label>
+                        <div class="col-sm-9"><input type="text" id="website-title" placeholder="公司传真" value="{$data.gscz}" name="gscz" class="col-xs-10 "></div>
+                    </div>
+
+                    <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>头部标语： </label>
+                        <div class="col-sm-9"><input type="text" id="website-title" placeholder="头部标语" value="{$data.tbby}" name="tbby" class="col-xs-10 "></div>
+                    </div>
+                    <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>底部标语： </label>
+                        <div class="col-sm-9"><input type="text" id="website-title" placeholder="底部标语" value="{$data.dbby}" name="dbby" class="col-xs-10 "></div>
+                    </div>
+                    <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>网站备案号： </label>
+                        <div class="col-sm-9"><input type="text" id="website-title" placeholder="网站备案号" value="{$data.bah}" name="bah" class="col-xs-10 "></div>
+                    </div>
+<!--                    <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>统计代码： </label>
+                        <div class="col-sm-9"><textarea class="textarea"></textarea></div>
+                    </div>-->
+                    <div class="Button_operation">
+                        <button onclick="article_save_submit();" class="btn btn-primary radius" type="submit"><i class="fa fa-save "></i>&nbsp;保存</button>
+                    </div>
+                </div>
+                </form>
+                <div id="profile" class="tab-pane ">
+
+                </div>
+                <div id="dropdown" class="tab-pane">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
+

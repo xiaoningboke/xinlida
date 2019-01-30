@@ -1,0 +1,24 @@
+[ 2019-01-29T08:17:18+08:00 ] ::1 /xinlida/advertising.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+ERR: 无法加载模块:Advertising
+
+[ 2019-01-29T08:22:04+08:00 ] ::1 /xinlida/Sort_ads.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载模块:Sort_ads
+
+[ 2019-01-29T16:25:42+08:00 ] ::1 /xinlida/Admi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+ERR: 无法加载模块:Admi
+
+[ 2019-01-29T17:22:59+08:00 ] ::1 /xinlida/Order_Chart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+ERR: 无法加载模块:Order_Chart
+
