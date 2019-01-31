@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c956ba43-8630-4f30-bc3a-fbd5f0b04573" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Application/Home/Mobile/Public/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Home/Mobile/Public/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Public/m/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Home/Mobile/Index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/Mobile/Index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/da2245feab9f58b4dceab1f100adff9d.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/da2245feab9f58b4dceab1f100adff9d.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/19_01_30.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Home/19_01_30.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,92 +74,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Index/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="150" column="35" selection-start-line="150" selection-start-column="35" selection-end-line="150" selection-end-column="35" />
-              <folding>
-                <element signature="e#920#924#0" expanded="true" />
-                <element signature="e#924#928#0" expanded="true" />
-                <element signature="e#1243#1247#0" expanded="true" />
-                <element signature="e#1247#1251#0" expanded="true" />
-                <element signature="e#2410#2414#0" expanded="true" />
-                <element signature="e#2414#2418#0" expanded="true" />
-                <element signature="e#3372#3376#0" expanded="true" />
-                <element signature="e#3376#3380#0" expanded="true" />
-                <element signature="e#4103#4107#0" expanded="true" />
-                <element signature="e#4107#4111#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Public/footer.html">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="65" selection-start-line="65" selection-end-line="90" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/public/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="28" column="56" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="105" column="47" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="47" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/product.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="105" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="105" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/m/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="701">
-              <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/m/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
-              <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+            <state relative-caret-position="449">
+              <caret line="31" column="119" selection-start-line="31" selection-start-column="119" selection-end-line="31" selection-end-column="119" />
             </state>
           </provider>
         </entry>
@@ -186,8 +98,8 @@
       <find>Home</find>
       <find>editorValue</find>
       <find>您的位置</find>
-      <find>news-content</find>
       <find>lgywm_wz</find>
+      <find>news-content</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -227,7 +139,6 @@
         <option value="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/Model/PictureModel.class.php" />
         <option value="$PROJECT_DIR$/Public/css/index.css" />
-        <option value="$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/Public/css/public.css" />
         <option value="$PROJECT_DIR$/Application/Home/View/public/header.html" />
@@ -250,6 +161,7 @@
         <option value="$PROJECT_DIR$/Application/Home/Mobile/Index/index.html" />
         <option value="$PROJECT_DIR$/Public/m/css/style.css" />
         <option value="$PROJECT_DIR$/Application/Home/Mobile/Public/footer.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html" />
       </list>
     </option>
   </component>
@@ -282,6 +194,27 @@
               <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
               <item name="xinlida" type="462c0819:PsiDirectoryNode" />
               <item name="Application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xinlida" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xinlida" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xinlida" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="Index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
@@ -430,7 +363,7 @@
       <workItem from="1548750350710" duration="5209000" />
       <workItem from="1548806115464" duration="13990000" />
       <workItem from="1548826067796" duration="15937000" />
-      <workItem from="1548892167385" duration="5642000" />
+      <workItem from="1548892167385" duration="5908000" />
     </task>
     <task id="LOCAL-00001" summary="基本网页以及基本配置">
       <created>1548314279344</created>
@@ -523,11 +456,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548842251580</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="移动端首页基本完毕">
+      <created>1548898159514</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1548898159514</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64326000" />
+    <option name="totallyTimeSpent" value="64592000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -579,7 +519,8 @@
     <MESSAGE value="修复" />
     <MESSAGE value="修复头部" />
     <MESSAGE value="配置移动端设备" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置移动端设备" />
+    <MESSAGE value="移动端首页基本完毕" />
+    <option name="LAST_COMMIT_MESSAGE" value="移动端首页基本完毕" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/css/public.css">
@@ -748,13 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="28" column="134" selection-start-line="28" selection-start-column="134" selection-end-line="28" selection-end-column="134" />
         </state>
       </provider>
     </entry>
@@ -972,8 +906,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Public/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+        <state relative-caret-position="450">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="31" column="119" selection-start-line="31" selection-start-column="119" selection-end-line="31" selection-end-column="119" />
         </state>
       </provider>
     </entry>
