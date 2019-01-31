@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo ($config["keywords"]); ?>-{<?php echo ($config["name"]); ?>}</title>
+    <title><?php echo ($config["keywords"]); ?>-<?php echo ($config["name"]); ?></title>
     <meta name="keywords" content="<?php echo ($config["keywords"]); ?>" />
     <meta name="description" content="<?php echo ($config["description"]); ?>" />
     <link rel="stylesheet" href="/xinlida/Public/css/base.css">

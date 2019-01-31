@@ -241,10 +241,10 @@ function link_operating(name,title){
 				 <i class="icon-caret-down"></i>
 				</a>
 				<ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
-				 <li><a href="javascript:void(0" name="Systems.html" title="系统设置" class="iframeurl"><i class="icon-cog"></i>网站设置</a></li>
-				 <li><a href="javascript:void(0)" name="admin_info.html" title="个人信息" class="iframeurl"><i class="icon-user"></i>个人资料</a></li>
+				 <li><a href="javascript:void(0" name="<?php echo U('Admin/Index/jbpz');?>" title="系统设置" class="iframeurl"><i class="icon-cog"></i>网站设置</a></li>
+				 <li><a href="javascript:void(0)" name="<?php echo U('Admin/Index/dispassword');?>" title="个人信息" class="iframeurl"><i class="icon-user"></i>个人资料</a></li>
 				 <li class="divider"></li>
-				 <li><a href="javascript:void(0)" id="Exit_system"><i class="icon-off"></i>退出</a></li>
+				 <li><a href="<?php echo U('Login/Index/quit');?>" id="Exit_system"><i class="icon-off"></i>退出</a></li>
 				</ul>
 			   </li>
 					</ul>
@@ -303,7 +303,7 @@ function link_operating(name,title){
 					</div><!-- #sidebar-shortcuts -->
 					<div id="menu_style" class="menu_style">
 					<ul class="nav nav-list" id="nav_list">
-				     <li class="home"><a href="javascript:void(0)" name="home.html" class="iframeurl" title=""><i class="icon-home"></i><span class="menu-text"> 系统首页 </span></a></li>
+				     <li class="home"><a href="javascript:void(0)" name="<?php echo U('Home/Index/index');?>" class="iframeurl" title=""><i class="icon-home"></i><span class="menu-text"> 系统首页 </span></a></li>
                      <li><a href="#" class="dropdown-toggle"><i class="icon-desktop"></i><span class="menu-text"> 网站配置 </span><b class="arrow icon-angle-down"></b></a>
 					   <ul class="submenu">
                          <li class="home"><a  href="javascript:void(0)" name="<?php echo U('Admin/Index/jbpz');?>"  title="基本配置" class="iframeurl"><i class="icon-double-angle-right"></i>基本配置</a></li>
@@ -335,50 +335,6 @@ function link_operating(name,title){
 				     <ul class="submenu">
 						<li class="home"><a href="javascript:void(0)" name="<?php echo U('Admin/Index/yqlj');?>" title="添加友情链接" class="iframeurl"><i class="icon-double-angle-right"></i>添加友情链接</a></li>
 						 <li class="home"><a href="javascript:void(0)" name="<?php echo U('Admin/Index/yqljList');?>" title="友情链接列表" class="iframeurl"><i class="icon-double-angle-right"></i>友情链接列表</a></li>
-						  <li class="home"><a href="javascript:void(0)" name="Payment_Configure.html" title="支付配置" class="iframeurl"><i class="icon-double-angle-right"></i>支付配置</a></li>
-							</ul>
-						</li>
-                  <li>
-					<a href="#" class="dropdown-toggle"><i class="icon-user"></i><span class="menu-text"> 会员管理 </span><b class="arrow icon-angle-down"></b></a>
-                    <ul class="submenu">
-                    <li class="home"><a href="javascript:void(0)" name="user_list.html" title="会员列表"  class="iframeurl"><i class="icon-double-angle-right"></i>会员列表</a></li>
-                    <li class="home"><a href="javascript:void(0)" name="member-Grading.html" title="等级管理"  class="iframeurl"><i class="icon-double-angle-right"></i>等级管理</a></li>
-                    <li class="home"><a href="javascript:void(0)" name="integration.html" title="会员记录管理"  class="iframeurl"><i class="icon-double-angle-right"></i>会员记录管理</a></li>
-
-                   </ul>
-				  </li>
-				  <li><a href="#" class="dropdown-toggle"><i class="icon-laptop"></i><span class="menu-text"> 店铺管理 </span><b class="arrow icon-angle-down"></b></a>
-							<ul class="submenu">
-								<li class="home"><a href="javascript:void(0)" name="Shop_list.html" title="店铺列表" class="iframeurl"><i class="icon-double-angle-right"></i>店铺列表</a></li>
-                                <li class="home"><a href="javascript:void(0)" name="Shops_Audit.html" title="店铺审核" class="iframeurl"><i class="icon-double-angle-right"></i>店铺审核<span class="badge badge-danger">5</span></a></li>
-							</ul>
-						</li>
-						<li><a href="#" class="dropdown-toggle"><i class="icon-comments-alt"></i><span class="menu-text"> 消息管理 </span><b class="arrow icon-angle-down"></b></a>
-							<ul class="submenu">
-								<li class="home"><a href="javascript:void(0)" name="Guestbook.html" title="留言列表" class="iframeurl"><i class="icon-double-angle-right"></i>留言列表</a></li>
-                                <li class="home"><a href="javascript:void(0)" name="Feedback.html" title="意见反馈" class="iframeurl"><i class="icon-double-angle-right"></i>意见反馈</a></li>
-							</ul>
-						</li>
-						<li><a href="#" class="dropdown-toggle"><i class="icon-bookmark"></i><span class="menu-text"> 文章管理 </span><b class="arrow icon-angle-down"></b></a>
-							<ul class="submenu">
-								<li class="home"><a href="javascript:void(0)" name="article_list.html" title="文章列表" class="iframeurl"><i class="icon-double-angle-right"></i>文章列表</a></li>
-                                <li class="home"><a href="javascript:void(0)" name="article_Sort.html" title="分类管理" class="iframeurl"><i class="icon-double-angle-right"></i>分类管理</a></li>
-							</ul>
-						</li>
-                        	<li><a href="#" class="dropdown-toggle"><i class="icon-cogs"></i><span class="menu-text"> 系统管理 </span><b class="arrow icon-angle-down"></b></a>
-							<ul class="submenu">
-								<li class="home"><a href="javascript:void(0)" name="Systems.html" title="系统设置" class="iframeurl"><i class="icon-double-angle-right"></i>系统设置</a></li>
-								<li class="home"><a href="javascript:void(0)" name="System_section.html" title="系统栏目管理" class="iframeurl"><i class="icon-double-angle-right"></i>系统栏目管理</a></li>
-							
-                                <li class="home"><a href="javascript:void(0)" name="System_Logs.html" title="系统日志" class="iframeurl"><i class="icon-double-angle-right"></i>系统日志</a></li>
-							</ul>
-						</li>
-                        <li><a href="#" class="dropdown-toggle"><i class="icon-group"></i><span class="menu-text"> 管理员管理 </span><b class="arrow icon-angle-down"></b></a>
-							<ul class="submenu">
-							
-								<li class="home"><a href="javascript:void(0)" name="admin_Competence.html" title="权限管理"  class="iframeurl"><i class="icon-double-angle-right"></i>权限管理</a></li>
-                                <li class="home"><a href="javascript:void(0)" name="administrator.html" title="管理员列表" class="iframeurl"><i class="icon-double-angle-right"></i>管理员列表</a></li>
-								  <li class="home"><a href="javascript:void(0)" name="admin_info.html" title="个人信息" class="iframeurl"><i class="icon-double-angle-right"></i>个人信息</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -409,7 +365,7 @@ function link_operating(name,title){
 						<ul class="breadcrumb">
 							<li>
 								<i class="icon-home home-icon"></i>
-								<a href="index.html">首页</a>
+								<a href="<?php echo U('Home/Index/index');?>">首页</a>
 							</li>
 							<li class="active"><span class="Current_page iframeurl"></span></li>
                             <li class="active" id="parentIframe"><span class="parentIframe iframeurl"></span></li>
@@ -417,7 +373,7 @@ function link_operating(name,title){
 						</ul>
 					</div>
                     
-                 <iframe id="iframe" style="border:0; width:100%; background-color:#FFF;"name="iframe" frameborder="0" src="home.html">  </iframe>
+                 <iframe id="iframe" style="border:0; width:100%; background-color:#FFF;"name="iframe" frameborder="0" src="<?php echo U('Home/Index/index');?>">  </iframe>
 				 
 
 <!-- /.page-content -->
@@ -467,17 +423,9 @@ function link_operating(name,title){
        
          <div class="footer_style" id="footerstyle">  
 		 <script type="text/javascript">try{ace.settings.check('footerstyle' , 'fixed')}catch(e){}</script>
-          <p class="l_f">版权所有：南京四美软件  苏ICP备11011739号</p>
-          <p class="r_f">地址：南京市鼓楼区阅江楼街道公共路64号  邮编：210011 技术支持：XXXX</p>
+          <p class="l_f">版权所有：千宇软件</p>
          </div>
-         <!--修改密码样式-->
-         <div class="change_Pass_style" id="change_Pass">
-            <ul class="xg_style">
-             <li><label class="label_name">原&nbsp;&nbsp;密&nbsp;码</label><input name="原密码" type="password" class="" id="password"></li>
-             <li><label class="label_name">新&nbsp;&nbsp;密&nbsp;码</label><input name="新密码" type="password" class="" id="Nes_pas"></li>
-             <li><label class="label_name">确认密码</label><input name="再次确认密码" type="password" class="" id="c_mew_pas"></li>              
-            </ul>          
-         </div>
+
         <!-- /.main-container -->
 		<!-- basic scripts -->
 		

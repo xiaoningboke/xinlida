@@ -4,11 +4,12 @@ use Admin\Model\ArticleModel;
 use Admin\Model\FenleiModel;
 use Admin\Model\PictureModel;
 use Admin\Model\ProductModel;
+use Admin\Model\UserModel;
 use Admin\Model\YqljModel;
 use Think\Controller;
 
 use Admin\Model\ConfigModel;
-class IndexController extends Controller {
+class IndexController extends CommonController {
     /**
      * 管理端首页
      */
@@ -440,6 +441,30 @@ class IndexController extends Controller {
         }
     }
 
+    //修改密码
+    public function dispassword(){
+
+        $this->display();
+    }
+    //修改密码数据
+    public function exitpassword(){
+        $oldpassword = md5(md5($_POST[oldpassword]));
+        $newpassword = md5(md5($_POST[password]));
+        $pas = new UserModel();
+        $password = $pas->findUser(session('user')[number]);
+        if($password === $oldpassword){
+            $data[number] = session('user')[number];
+            $data[password] = $newpassword;
+            $i = $pas->exitpassword($data);
+            if($i>0){
+                $this->success("修改成功");
+            }else{
+                $this->error("修改失败");
+            }
+        }else{
+            $this->error("原密码错误");
+        }
+    }
 
     ////////////////////////////////////////////文件上传/////////////////////////////////////////////
     public function upload(){

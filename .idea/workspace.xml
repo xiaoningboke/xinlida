@@ -1,11 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c956ba43-8630-4f30-bc3a-fbd5f0b04573" name="Default Changelist" comment="">
+    <list default="true" id="c956ba43-8630-4f30-bc3a-fbd5f0b04573" name="Default Changelist" comment="添加登录">
+      <change afterPath="$PROJECT_DIR$/Application/Admin/Controller/CommonController.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Admin/Model/UserModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Admin/View/Index/dispassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Login/Conf/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Login/Controller/IndexController.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Login/Model/UserModel.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Login/View/Index/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/1727c639e4e71c2d357a86395bafd08e.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Login/06617ac414f2adb61800b832e64b22e7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Login/19_01_31.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/c/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/c/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/c/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/c/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/c/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/c/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/c/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/c/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/c/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/c/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/c/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/c/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/c/login/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/i/login/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/j/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/j/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/j/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/j/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/j/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/j/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/j/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/j/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/login/j/js/jquery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/gsjj.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Index/gsjj.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/xhzy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Index/xhzy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/19_01_31.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/19_01_31.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Common/19_01_31.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Common/19_01_31.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/19_01_31.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Home/19_01_31.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,117 +114,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Public/footer.html">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/chanpin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="51" lean-forward="true" selection-start-column="51" selection-end-column="51" />
+            <state relative-caret-position="329">
+              <caret line="454" column="23" selection-start-line="454" selection-start-column="23" selection-end-line="454" selection-end-column="23" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/gsjj.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="43" selection-start-column="43" selection-end-column="43" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/hqzx.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="56" lean-forward="true" selection-start-column="56" selection-end-column="56" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/kczy.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="35" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/lxfs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/news.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="35" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/product.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#34#63#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/xhzy.html">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="535">
+              <caret line="375" column="148" selection-start-line="375" selection-start-column="148" selection-end-line="375" selection-end-column="148" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/Model/UserModel.class.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -202,13 +151,15 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Home</find>
       <find>editorValue</find>
       <find>您的位置</find>
       <find>lgywm_wz</find>
       <find>news-content</find>
       <find>product-page</find>
       <find>{$data.name}</find>
+      <find>网站设置</find>
+      <find>退出</find>
+      <find>Home</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -220,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Application/Home/Model/ProductModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/Model/ArticleModel.class.php" />
         <option value="$PROJECT_DIR$/web/css/public.css" />
         <option value="$PROJECT_DIR$/Public/css/base.css" />
@@ -232,7 +182,6 @@
         <option value="$PROJECT_DIR$/Application/Admin/View/Index/findYqlj.html" />
         <option value="$PROJECT_DIR$/Application/Admin/Model/YqljModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/Model/YqljModel.class.php" />
-        <option value="$PROJECT_DIR$/Application/Admin/View/Index/index.html" />
         <option value="$PROJECT_DIR$/Application/Admin/View/Index/picture.html" />
         <option value="$PROJECT_DIR$/Application/Admin/View/Index/findpic.html" />
         <option value="$PROJECT_DIR$/Application/Admin/Model/PictureModel.class.php" />
@@ -252,7 +201,6 @@
         <option value="$PROJECT_DIR$/Application/Home/Mobile/Public/footer.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index/product.html" />
         <option value="$PROJECT_DIR$/Application/Home/Mobile/Index/product.html" />
-        <option value="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/Public/css/public.css" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index/chanpin.html" />
         <option value="$PROJECT_DIR$/Application/Home/Mobile/Index/chanpin.html" />
@@ -271,6 +219,9 @@
         <option value="$PROJECT_DIR$/Application/Home/View/Index/gsjj.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index/xhzy.html" />
+        <option value="$PROJECT_DIR$/Application/Login/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Index/index.html" />
       </list>
     </option>
   </component>
@@ -321,49 +272,21 @@
               <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
               <item name="xinlida" type="462c0819:PsiDirectoryNode" />
               <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
               <item name="xinlida" type="462c0819:PsiDirectoryNode" />
               <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xinlida" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xinlida" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="Index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xinlida" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
-              <item name="Public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xinlida" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
               <item name="xinlida" type="462c0819:PsiDirectoryNode" />
               <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
               <item name="Index" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -371,33 +294,14 @@
               <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
               <item name="xinlida" type="462c0819:PsiDirectoryNode" />
               <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
               <item name="xinlida" type="462c0819:PsiDirectoryNode" />
-              <item name="Public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xinlida" type="462c0819:PsiDirectoryNode" />
-              <item name="Public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xinlida" type="462c0819:PsiDirectoryNode" />
-              <item name="Public" type="462c0819:PsiDirectoryNode" />
-              <item name="m" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xinlida" type="462c0819:PsiDirectoryNode" />
-              <item name="Public" type="462c0819:PsiDirectoryNode" />
-              <item name="m" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -465,7 +369,7 @@
       <workItem from="1548750350710" duration="5209000" />
       <workItem from="1548806115464" duration="13990000" />
       <workItem from="1548826067796" duration="15937000" />
-      <workItem from="1548892167385" duration="8890000" />
+      <workItem from="1548892167385" duration="11908000" />
     </task>
     <task id="LOCAL-00001" summary="基本网页以及基本配置">
       <created>1548314279344</created>
@@ -586,11 +490,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548901178927</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="初步完工">
+      <created>1548901266910</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1548901266910</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67574000" />
+    <option name="totallyTimeSpent" value="70592000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -603,7 +514,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19957082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -645,44 +555,10 @@
     <MESSAGE value="移动端首页基本完毕" />
     <MESSAGE value="添加客服后台" />
     <MESSAGE value="初步完工" />
-    <option name="LAST_COMMIT_MESSAGE" value="初步完工" />
+    <MESSAGE value="添加登录" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加登录" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/FenleiModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="67" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Model/YqljModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Public/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/ProductModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="248" column="20" selection-start-line="248" selection-start-column="20" selection-end-line="248" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/picture.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -821,16 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="1" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1801">
-          <caret line="307" column="8" selection-start-line="307" selection-start-column="8" selection-end-line="307" selection-end-column="8" />
-          <folding>
-            <element signature="e#34#63#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1028,6 +894,47 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/CommonController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Login/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Login/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Model/UserModel.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="454" column="23" selection-start-line="454" selection-start-column="23" selection-end-line="454" selection-end-column="23" />
+          <folding>
+            <element signature="e#34#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="375" column="148" selection-start-line="375" selection-start-column="148" selection-end-line="375" selection-end-column="148" />
         </state>
       </provider>
     </entry>

@@ -3718,3 +3718,57 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
 ERR: 无法加载模块:Public
 
+[ 2019-01-31T10:35:08+08:00 ] ::1 /xinlida/index.php/Systems.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:Systems
+
+[ 2019-01-31T10:35:10+08:00 ] ::1 /xinlida/index.php/admin_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:Admin_info
+
+[ 2019-01-31T10:35:12+08:00 ] ::1 /xinlida/index.php/Systems.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+ERR: 无法加载模块:Systems
+
+[ 2019-01-31T10:47:29+08:00 ] ::1 /xinlida/Public/login/j/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+ERR: 无法加载模块:Public
+
+[ 2019-01-31T10:47:29+08:00 ] ::1 /xinlida/Public/login/j/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+ERR: 无法加载模块:Public
+
+[ 2019-01-31T10:47:29+08:00 ] ::1 /xinlida/Public/login/c/css/bootstrap.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+ERR: 无法加载模块:Public
+
+[ 2019-01-31T10:47:29+08:00 ] ::1 /xinlida/Public/login/i/login/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+ERR: 无法加载模块:Public
+
+[ 2019-01-31T10:47:29+08:00 ] ::1 /xinlida/Public/login/c/login/login.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+ERR: 无法加载模块:Public
+
+[ 2019-01-31T10:47:29+08:00 ] ::1 /xinlida/Public/login/j/js/bootstrap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+ERR: 无法加载模块:Public
+
