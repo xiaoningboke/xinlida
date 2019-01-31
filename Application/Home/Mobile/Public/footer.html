@@ -9,13 +9,13 @@
 </footer>
 <div class="lfooter">
     <ul>
-        <li><a href="index.php"><img src="__PUBLIC__/m/images/dbsy.png" width="30" height="30" /><br />
+        <li><a href="{:U('Home/Index/index')}"><img src="__PUBLIC__/m/images/dbsy.png" width="30" height="30" /><br />
             网站首页</a></li>
-        <li><a href="tel:18366461629"><img src="__PUBLIC__/m/images/dbdh.png" width="30" height="30" /><br />
+        <li><a href="tel:{$config.kf}"><img src="__PUBLIC__/m/images/dbdh.png" width="30" height="30" /><br />
             电话咨询</a></li>
-        <li><a href="mqqwpa://im/chat?chat_type=wpa&uin=80590635&version=1"><img src="__PUBLIC__/m/images/dbqq.png" width="30" height="30" /><br />
+        <li><a href="mqqwpa://im/chat?chat_type=wpa&uin={$config.qq}&version=1"><img src="__PUBLIC__/m/images/dbqq.png" width="30" height="30" /><br />
             QQ咨询</a></li>
-        <li><a href="contact.php"><img src="__PUBLIC__/m/images/dblx.png" width="30" height="30" /><br />
+        <li><a href="{:U('Home/Index/lxfs')}"><img src="__PUBLIC__/m/images/dblx.png" width="30" height="30" /><br />
             联系我们</a></li>
     </ul>
 </div>
@@ -23,3 +23,8 @@
 <div class="dbgao"></div>
 </body>
 </html>
+<script>
+    $(function () {
+        $('#dl-menu').dlmenu();
+    });
+</script>

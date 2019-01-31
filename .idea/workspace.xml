@@ -2,9 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c956ba43-8630-4f30-bc3a-fbd5f0b04573" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Home/Mobile/Index/chanpin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Home/Mobile/Index/gsjj.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Home/Mobile/Index/hqzx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Home/Mobile/Index/kczy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Home/Mobile/Index/lxfs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Home/Mobile/Index/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Home/Mobile/Index/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Home/Mobile/Index/xhzy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/m/css/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/Mobile/Index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/Mobile/Index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/Mobile/Public/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/Mobile/Public/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/chanpin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Index/chanpin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/hqzx.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Index/hqzx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/kczy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Index/kczy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/lxfs.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Index/lxfs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Index/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Home/View/Index/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Home/View/Index/product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/feea44150f6bf4c1568416db7ba7424c.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/feea44150f6bf4c1568416db7ba7424c.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/940ecc7e507765aba857b2eabb0bb4b1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/940ecc7e507765aba857b2eabb0bb4b1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/da2245feab9f58b4dceab1f100adff9d.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/da2245feab9f58b4dceab1f100adff9d.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/19_01_31.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/19_01_31.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Common/19_01_31.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Common/19_01_31.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/19_01_31.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Home/19_01_31.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/Public/css/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/m/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Public/m/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Public/m/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Public/m/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,11 +100,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="31" column="130" selection-start-line="31" selection-start-column="130" selection-end-line="31" selection-end-column="130" />
+            <state relative-caret-position="401">
+              <caret line="159" column="51" selection-start-line="159" selection-start-column="51" selection-end-line="159" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Public/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="611">
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Public/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Index/lxfs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/m/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/m/css/public.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="659">
+              <caret line="189" selection-start-line="189" selection-end-line="189" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/lxfs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="11" column="45" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -89,8 +168,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -101,6 +180,8 @@
       <find>您的位置</find>
       <find>lgywm_wz</find>
       <find>news-content</find>
+      <find>product-page</find>
+      <find>{$data.name}</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,15 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Application/Admin/Model/FenleiModel.class.php" />
-        <option value="$PROJECT_DIR$/Application/Admin/View/Index/productList.html" />
-        <option value="$PROJECT_DIR$/Application/Admin/View/Index/findProduct.html" />
-        <option value="$PROJECT_DIR$/Application/Admin/Model/ProductModel.class.php" />
-        <option value="$PROJECT_DIR$/Application/Home/Common/function.php" />
-        <option value="$PROJECT_DIR$/Application/Common/Common/function.php" />
-        <option value="$PROJECT_DIR$/Application/Home/Controller/CommonController.php" />
-        <option value="$PROJECT_DIR$/Application/Home/Model/FenleiModel.php" />
-        <option value="$PROJECT_DIR$/Application/Home/Model/ConfigModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/Model/ProductModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/Model/ArticleModel.class.php" />
         <option value="$PROJECT_DIR$/web/css/public.css" />
@@ -137,20 +209,12 @@
         <option value="$PROJECT_DIR$/Application/Admin/View/Index/picture.html" />
         <option value="$PROJECT_DIR$/Application/Admin/View/Index/findpic.html" />
         <option value="$PROJECT_DIR$/Application/Admin/Model/PictureModel.class.php" />
-        <option value="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/Model/PictureModel.class.php" />
         <option value="$PROJECT_DIR$/Public/css/index.css" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
-        <option value="$PROJECT_DIR$/Public/css/public.css" />
         <option value="$PROJECT_DIR$/Application/Home/View/public/header.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/public/public.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index/gsjj.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index/hqzx.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index/kczy.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index/lxfs.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index/news.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index/chanpin.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index/product.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index/xhzy.html" />
         <option value="$PROJECT_DIR$/Application/Common/function.php" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/CommonController.class.php" />
@@ -158,11 +222,28 @@
         <option value="$PROJECT_DIR$/Application/Home/Mobile/Public/header.html" />
         <option value="$PROJECT_DIR$/Public/m/css/index.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html" />
+        <option value="$PROJECT_DIR$/Public/m/css/style.css" />
+        <option value="$PROJECT_DIR$/Application/Home/Mobile/Index/gsjj.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Mobile/Public/footer.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/product.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Mobile/Index/product.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Public/css/public.css" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/chanpin.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Mobile/Index/chanpin.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Mobile/Index/xhzy.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/kczy.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Mobile/Index/kczy.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/hqzx.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Mobile/Index/hqzx.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/news.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Mobile/Index/news.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/lxfs.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Mobile/Index/lxfs.html" />
+        <option value="$PROJECT_DIR$/Public/m/css/public.css" />
         <option value="$PROJECT_DIR$/Public/m/css/index.css" />
         <option value="$PROJECT_DIR$/Application/Home/Mobile/Index/index.html" />
-        <option value="$PROJECT_DIR$/Public/m/css/style.css" />
-        <option value="$PROJECT_DIR$/Application/Home/Mobile/Public/footer.html" />
-        <option value="$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html" />
       </list>
     </option>
   </component>
@@ -207,15 +288,7 @@
               <item name="xinlida" type="462c0819:PsiDirectoryNode" />
               <item name="Application" type="462c0819:PsiDirectoryNode" />
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xinlida" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="Index" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xinlida" type="b2602c69:ProjectViewProjectNode" />
@@ -316,13 +389,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Common\Common" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Home\Mobile\Index" />
       <recent name="D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Home\View\Index" />
       <recent name="D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Home\Model" />
       <recent name="D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\View\Index" />
+      <recent name="D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Common\Common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Common\Common" />
     </key>
   </component>
@@ -364,7 +438,7 @@
       <workItem from="1548750350710" duration="5209000" />
       <workItem from="1548806115464" duration="13990000" />
       <workItem from="1548826067796" duration="15937000" />
-      <workItem from="1548892167385" duration="5997000" />
+      <workItem from="1548892167385" duration="8786000" />
     </task>
     <task id="LOCAL-00001" summary="基本网页以及基本配置">
       <created>1548314279344</created>
@@ -471,11 +545,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548898266045</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="添加客服后台">
+      <created>1548898347422</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1548898347422</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64681000" />
+    <option name="totallyTimeSpent" value="67470000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -532,81 +613,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加客服后台" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/css/public.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/fenleiList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="20" column="90" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="109" selection-start-column="109" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Model/ArticleModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="63" column="53" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Model/ProductModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/public/left.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://eff191f6-208d-41c1-8813-19490011dcb5/schema/xinlida/table/xld_yqlj">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/yqlj.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/findYqlj.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="134" selection-start-line="14" selection-start-column="134" selection-end-line="14" selection-end-column="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/YqljList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="23" column="61" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/Model/FenleiModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -670,16 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="437" column="5" lean-forward="true" selection-start-line="437" selection-start-column="5" selection-end-line="437" selection-end-column="5" />
-          <folding>
-            <element signature="e#34#63#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Model/PictureModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -701,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/css/public.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="125" column="20" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/public/public.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -721,63 +710,6 @@
           <caret line="133" column="13" selection-start-line="133" selection-start-column="13" selection-end-line="133" selection-end-column="13" />
           <folding>
             <element signature="e#33#61#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/kczy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/hqzx.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="59" selection-start-column="38" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/lxfs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="30" selection-start-line="12" selection-start-column="23" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="69" selection-start-column="30" selection-end-column="69" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/gsjj.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="59" selection-start-column="29" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/xhzy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -822,23 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Public/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/chanpin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="69" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/m/css/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -846,27 +761,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="105" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="105" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/public/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="28" column="56" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="65" selection-start-line="65" selection-end-line="90" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -880,50 +778,218 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Index/index.html">
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="150" column="35" selection-start-line="150" selection-start-column="35" selection-end-line="150" selection-end-column="35" />
+        <state relative-caret-position="449">
+          <caret line="31" column="130" selection-start-line="31" selection-start-column="130" selection-end-line="31" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/gsjj.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="87" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="65" selection-start-line="65" selection-end-line="90" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Index/gsjj.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1801">
+          <caret line="307" column="8" selection-start-line="307" selection-start-column="8" selection-end-line="307" selection-end-column="8" />
           <folding>
-            <element signature="e#920#924#0" expanded="true" />
-            <element signature="e#924#928#0" expanded="true" />
-            <element signature="e#1243#1247#0" expanded="true" />
-            <element signature="e#1247#1251#0" expanded="true" />
-            <element signature="e#2410#2414#0" expanded="true" />
-            <element signature="e#2414#2418#0" expanded="true" />
-            <element signature="e#3372#3376#0" expanded="true" />
-            <element signature="e#3376#3380#0" expanded="true" />
-            <element signature="e#4103#4107#0" expanded="true" />
-            <element signature="e#4107#4111#0" expanded="true" />
+            <element signature="e#34#63#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/m/css/index.css">
+    <entry file="file://$PROJECT_DIR$/Public/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+        <state relative-caret-position="-781" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/m/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        <state relative-caret-position="-319">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/chanpin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" lean-forward="true" selection-start-column="51" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Index/chanpin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/xhzy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Index/xhzy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Index/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/kczy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Index/kczy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/hqzx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/product.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="80" column="1" lean-forward="true" selection-start-line="58" selection-end-line="80" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Index/hqzx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Index/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/lxfs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/m/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Index/lxfs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/m/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Public/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="159" column="51" selection-start-line="159" selection-start-column="51" selection-end-line="159" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Mobile/Public/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="31" column="130" selection-start-line="31" selection-start-column="130" selection-end-line="31" selection-end-column="130" />
+        <state relative-caret-position="611">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
         </state>
       </provider>
     </entry>

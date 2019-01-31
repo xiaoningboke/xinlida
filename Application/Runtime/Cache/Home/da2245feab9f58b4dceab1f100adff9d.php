@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title><?php echo ($config["keywords"]); ?>-{<?php echo ($config["name"]); ?>}</title>
+    <title><?php echo ($config["keywords"]); ?>-<?php echo ($config["name"]); ?></title>
     <meta name="keywords" content="<?php echo ($config["keywords"]); ?>" />
     <meta name="description" content="<?php echo ($config["description"]); ?>" />
     <link type="text/css" href="/xinlida/Public/m/css/style.css" rel="stylesheet">
@@ -199,13 +199,13 @@
 </footer>
 <div class="lfooter">
     <ul>
-        <li><a href="index.php"><img src="/xinlida/Public/m/images/dbsy.png" width="30" height="30" /><br />
+        <li><a href="<?php echo U('Home/Index/index');?>"><img src="/xinlida/Public/m/images/dbsy.png" width="30" height="30" /><br />
             网站首页</a></li>
-        <li><a href="tel:18366461629"><img src="/xinlida/Public/m/images/dbdh.png" width="30" height="30" /><br />
+        <li><a href="tel:<?php echo ($config["kf"]); ?>"><img src="/xinlida/Public/m/images/dbdh.png" width="30" height="30" /><br />
             电话咨询</a></li>
-        <li><a href="mqqwpa://im/chat?chat_type=wpa&uin=80590635&version=1"><img src="/xinlida/Public/m/images/dbqq.png" width="30" height="30" /><br />
+        <li><a href="mqqwpa://im/chat?chat_type=wpa&uin=<?php echo ($config["qq"]); ?>&version=1"><img src="/xinlida/Public/m/images/dbqq.png" width="30" height="30" /><br />
             QQ咨询</a></li>
-        <li><a href="contact.php"><img src="/xinlida/Public/m/images/dblx.png" width="30" height="30" /><br />
+        <li><a href="<?php echo U('Home/Index/lxfs');?>"><img src="/xinlida/Public/m/images/dblx.png" width="30" height="30" /><br />
             联系我们</a></li>
     </ul>
 </div>
@@ -213,11 +213,14 @@
 <div class="dbgao"></div>
 </body>
 </html>
-
-<script type="text/javascript">
+<script>
     $(function () {
         $('#dl-menu').dlmenu();
     });
+</script>
+
+<script type="text/javascript">
+
 
     window.onload=function(){
         var odiv = document.getElementById('div1');

@@ -299,10 +299,13 @@ class IndexController extends Controller {
         $data[id] = $_POST[id];
         $data[name] = $_POST[name];
         $data[content] = $_POST[editorValue];
-        if(!is_null($_POST[picture])){
-            $savename = $this->upload();
-            $data[picture] = $savename[picture][savename];
+
+        $pic = $this->upload();
+        if(!is_null($pic)){
+            $data[picture] = $pic[picture][savename];
         }
+
+
         $product = new ProductModel();
         $i = $product->exitProduct($data);
         if ($i>0){

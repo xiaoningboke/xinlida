@@ -1,40 +1,97 @@
-.bannerny {
-
+.lgywm {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.lgywm_title {
+    width: 100%;
+    height: auto;
+}
+.xian {
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px solid #d7d8d8;
+}
+.lwenzi {
+    width: 110px;
+    height: auto;
     text-align: center;
-    height: 286px;
-    margin-top: 2px;
+    background-color: #FFF;
+    margin: -20px auto 0px;
 }
-.main-info {
-    margin: 0px auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 1200px;
-}
-.main-infol {
-    float: left;
-    width: 245px;
-}
-.product-list {
-    background: url("../images/product-list.jpg");
-    margin-left: 15px;
-    width: 160px;
-    line-height: 40px;
-    padding-left: 55px;
-    margin-top: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: left;
-}
-.info-content {
-    line-height: 26px;
-    margin-top: 10px;
+.lwenzi p {
     font-size: 12px;
-    text-align: left;
+    color: #333;
+    line-height: 1.6em;
 }
-.main-infonc {
-    width: 935px;
-    margin-left: 20px;
+.lwenzi p strong {
+    font-size: 1.5em;
+}
+.lgywm_wz {
+    width: 100%;
+    padding: 3% 0px;
+}
+.lgywm_wz p {
+    font-size: 1.2em;
+    line-height: 1.8em;
+    color: #333;
+    padding: 0px 10px;
+    text-indent: 2.4em;
+}
+/*更多按钮*/
+
+.angd {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+.angd a {
+    width: auto;
+    height: 40px;
+    padding: 0px 20px;
+    color: #999;
+    display: block;
+    font-size: 14px;
+    line-height: 40px;
+    border: 1px solid #d7d8d8;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+
+/*产品中心*/
+.product-page {
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+}
+.product-page ul {
     float: left;
+    width: 100%;
+    text-align: center;
+}
+.product-page li {
+    float: left;
+    padding-left: 3px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 12px;
+    width: 49%;
+}
+.product-page img {
+    width: 80%;
+    border: 0;
+    padding: 2px;
+    border: #eeeeee 1px solid;
+}
+.nynewsfy {
+    line-height: 35px;
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
 }
 
 .page{
@@ -104,19 +161,32 @@
     color: #FFF;
 }
 
-.info-contentn {
+/*新闻资讯*/
+.info-nynews {
+    background: url("../../images/info-nynews.jpg");
     line-height: 35px;
-    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+}
+.info-nynews ul {
+    line-height: 35px;
+    width: 100%;
+    text-align: left;
+}
+.info-nynews li {
+    line-height: 35px;
     font-size: 14px;
+    text-align: left;
+    padding-left: 40px;
+}
+.info-nynews span {
+    font-size: 12px;
+    color: #CCCCCC;
     text-align: left;
 }
 
-.info-conbt {
-    line-height: 70px;
-    margin-top: 10px;
-    font-size: 16px;
-    color: #CD0001;
-    font-weight: bold;
-    text-align: center;
-    font-weight: 700;
+.lxfs{
+    line-height: 35px;
+    font-size: 14px;
+    text-align: left;
 }
