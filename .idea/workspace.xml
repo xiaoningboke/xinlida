@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c956ba43-8630-4f30-bc3a-fbd5f0b04573" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/feea44150f6bf4c1568416db7ba7424c.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/feea44150f6bf4c1568416db7ba7424c.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/19_01_31.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Admin/19_01_31.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="449">
-              <caret line="31" column="119" selection-start-line="31" selection-start-column="119" selection-end-line="31" selection-end-column="119" />
+              <caret line="31" column="130" selection-start-line="31" selection-start-column="130" selection-end-line="31" selection-end-column="130" />
             </state>
           </provider>
         </entry>
@@ -363,7 +364,7 @@
       <workItem from="1548750350710" duration="5209000" />
       <workItem from="1548806115464" duration="13990000" />
       <workItem from="1548826067796" duration="15937000" />
-      <workItem from="1548892167385" duration="5908000" />
+      <workItem from="1548892167385" duration="5997000" />
     </task>
     <task id="LOCAL-00001" summary="基本网页以及基本配置">
       <created>1548314279344</created>
@@ -463,11 +464,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548898159514</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="添加客服后台">
+      <created>1548898266045</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1548898266045</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64592000" />
+    <option name="totallyTimeSpent" value="64681000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -520,7 +528,8 @@
     <MESSAGE value="修复头部" />
     <MESSAGE value="配置移动端设备" />
     <MESSAGE value="移动端首页基本完毕" />
-    <option name="LAST_COMMIT_MESSAGE" value="移动端首页基本完毕" />
+    <MESSAGE value="添加客服后台" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加客服后台" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/css/public.css">
@@ -914,7 +923,7 @@
     <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/jbpz.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
-          <caret line="31" column="119" selection-start-line="31" selection-start-column="119" selection-end-line="31" selection-end-column="119" />
+          <caret line="31" column="130" selection-start-line="31" selection-start-column="130" selection-end-line="31" selection-end-column="130" />
         </state>
       </provider>
     </entry>

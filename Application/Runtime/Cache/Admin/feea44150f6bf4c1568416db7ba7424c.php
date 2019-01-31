@@ -57,6 +57,12 @@
                     <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>公司传真： </label>
                         <div class="col-sm-9"><input type="text" id="website-title" placeholder="公司传真" value="<?php echo ($data["gscz"]); ?>" name="gscz" class="col-xs-10 "></div>
                     </div>
+                    <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>在线客服： </label>
+                        <div class="col-sm-9"><input type="text" id="website-title" placeholder="QQ" value="<?php echo ($data["qq"]); ?>" name="gscz" class="col-xs-10 "></div>
+                    </div>
+                    <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>客服热线： </label>
+                        <div class="col-sm-9"><input type="text" id="website-title" placeholder="客服热线" value="<?php echo ($data["kf"]); ?>" name="gscz" class="col-xs-10 "></div>
+                    </div>
                     <div class="form-group"><label class="col-sm-1 control-label no-padding-right" for="form-field-1"><i>*</i>邮箱： </label>
                         <div class="col-sm-9"><input type="text" id="website-title" placeholder="邮箱" value="<?php echo ($data["email"]); ?>" name="email" class="col-xs-10 "></div>
                     </div>
