@@ -1,13 +1,212 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-ewew
-</body>
-</html>
+<include file="Public/header" title="{$config.keywords}-{{$config.name}}"/>
+<link rel="stylesheet" href="__PUBLIC__/m/css/index.css">
+<div class="main">
+    <div class="banner">
+        <img src="__PUBLIC__/Uploads/{$picdata[1][url]}" alt="">
+    </div>
+    <!--公司简介-->
+    <div class="lgywm">
+
+        <!--标题开始-->
+
+        <div class="lgywm_title">
+            <div class="xian"></div>
+            <div class="lwenzi">
+                <p><strong>公司简介</strong><br/>
+                    ABOUT US</p>
+            </div>
+        </div>
+
+        <!--标题结束-->
+
+        <div class="lgywm_wz">
+            {$gsjj.content}
+        </div>
+
+        <!--按钮更多开始-->
+
+        <div class="angd"><a href="{:U('Home/Index/gsjj')}">了解更多 &gt;&gt; </a></div>
+
+        <!--按钮更多结束-->
+
+    </div>
+
+    <!--产品展示-->
+    <div class="lgywm">
+
+        <!--标题开始-->
+
+        <div class="lgywm_title">
+            <div class="xian"></div>
+            <div class="lwenzi">
+                <p><strong>产品展示</strong><br/>
+                    Product display</p>
+            </div>
+        </div>
+
+        <!--标题结束-->
+
+        <div class="">
+            <div id="div1">
+                <ul>
+                    <foreach name="cp" item="vo" >
+                        <li><a class="a1" href="{:U('Home/Index/chanpin',array('id'=>$vo['id']))}"><img src="__PUBLIC__/Uploads/{$vo.picture}" alt="{$vo.name}" /><br />{$vo.name}</a></li>
+                    </foreach>
+                </ul>
+
+                <ul>
+                    <foreach name="cp" item="vo" >
+                        <li><a class="a1" href="{:U('Home/Index/chanpin',array('id'=>$vo['id']))}"><img src="__PUBLIC__/Uploads/{$vo.picture}" alt="{$vo.name}" /><br />{$vo.name}</a></li>
+                    </foreach>
+                </ul>
+            </div>
+        </div>
+
+        <!--按钮更多开始-->
+
+        <div class="angd"><a href="{:U('Home/Index/product')}">了解更多 &gt;&gt; </a></div>
+
+        <!--按钮更多结束-->
+
+        </div>
+    <!--新闻-->
+    <div class="lgywm">
+
+        <!--标题开始-->
+
+        <div class="lgywm_title">
+            <div class="xian"></div>
+            <div class="lwenzi">
+                <p><strong>热点资讯</strong><br/>
+                    NEWS</p>
+            </div>
+        </div>
+
+        <!--标题结束-->
+
+        <div class="">
+            <div class="news-content">
+                <ul>
+                    <foreach name="rdzx" item="vo" >
+                        <li><a href="#">{$vo.title}</a><span>{$vo.time}</span></li>
+                    </foreach>
+                </ul>
+            </div>
+        </div>
+
+        <!--按钮更多开始-->
+
+        <div class="angd"><a href="{:U('Home/Index/gsjj')}">了解更多 &gt;&gt; </a></div>
+
+        <!--按钮更多结束-->
+
+        </div>
+    <div class="lgywm">
+
+        <!--标题开始-->
+
+        <div class="lgywm_title">
+            <div class="xian"></div>
+            <div class="lwenzi">
+                <p><strong>行情关注</strong><br/>
+                    NEWS</p>
+            </div>
+        </div>
+
+        <!--标题结束-->
+
+        <div class="">
+            <div class="news-content">
+                <ul>
+                    <foreach name="hqgz" item="vo" >
+                        <li><a href="#">{$vo.title}</a><span>{$vo.time}</span></li>
+                    </foreach>
+                </ul>
+            </div>
+        </div>
+
+        <!--按钮更多开始-->
+
+        <div class="angd"><a href="{:U('Home/Index/gsjj')}">了解更多 &gt;&gt; </a></div>
+
+        <!--按钮更多结束-->
+
+    </div>    <div class="lgywm">
+
+    <!--标题开始-->
+
+    <div class="lgywm_title">
+        <div class="xian"></div>
+        <div class="lwenzi">
+            <p><strong>知识汇编</strong><br/>
+                NEWS</p>
+        </div>
+    </div>
+
+    <!--标题结束-->
+
+    <div class="">
+        <div class="news-content">
+            <ul>
+                <foreach name="zshb" item="vo" >
+                    <li><a href="#">{$vo.title}</a><span>{$vo.time}</span></li>
+                </foreach>
+            </ul>
+        </div>
+    </div>
+
+    <!--按钮更多开始-->
+
+    <div class="angd"><a href="{:U('Home/Index/gsjj')}">了解更多 &gt;&gt; </a></div>
+
+    <!--按钮更多结束-->
+
+</div>
+</div>
+
+<include file="Public/footer"/>
+
+<script type="text/javascript">
+    $(function () {
+        $('#dl-menu').dlmenu();
+    });
+
+    window.onload=function(){
+        var odiv = document.getElementById('div1');
+        var oul = odiv.getElementsByTagName('ul')[0];
+        var oul1 = odiv.getElementsByTagName('ul')[1];
+        var ali = oul.getElementsByTagName('li');
+        var ali1 = oul1.getElementsByTagName('li');
+        var spa = -2;
+        oul.innerHTML=oul.innerHTML+oul.innerHTML;
+        oul.style.width=ali[0].offsetWidth*ali.length+'px';
+        oul1.style.width=ali[0].offsetWidth*ali1.length+'px';
+        function move(){
+            spa=-2;
+            if(oul.offsetLeft<-oul.offsetWidth/2){
+                oul.style.left='0';
+            }
+            if(oul.offsetLeft>0){
+                oul.style.left=-oul.offsetWidth/2+'px'
+            }
+            oul.style.left=oul.offsetLeft+spa+'px';
+        }
+        function move1(){
+            spa=2;
+            if(oul1.offsetLeft<-oul1.offsetWidth/2){
+                oul.style.left='0';
+            }
+            if(oul1.offsetLeft>0){
+                oul1.style.left=-oul1.offsetWidth/2+'px'
+            }
+            oul1.style.left=oul1.offsetLeft+spa+'px';
+        }
+        var timer = setInterval(move,30)
+        var timer = setInterval(move1,30)
+
+        odiv.onmousemove=function(){clearInterval(timer);}
+        odiv.onmouseout=function(){timer = setInterval(move,30)};
+
+    }
+
+</script>

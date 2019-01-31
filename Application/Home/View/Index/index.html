@@ -44,7 +44,7 @@
 										<tbody>
 										<tr>
 											<foreach name="cp" item="vo" >
-												<td align="middle"><a class="a1" href="#"><img src="__PUBLIC__/Uploads/{$vo.picture}" alt="{$vo.name}" /><br />{$vo.name}</a></td>
+												<td align="middle"><a class="a1" href="{:U('Home/Index/chanpin',array('id'=>$vo['id']))}"><img src="__PUBLIC__/Uploads/{$vo.picture}" alt="{$vo.name}" /><br />{$vo.name}</a></td>
 											</foreach>
 										</tr>
 										</tbody>
@@ -65,7 +65,7 @@
 							<tbody>
 							 <tr>
 								 <foreach name="cp" item="vo" >
-									 <td align="middle"><a class="a1" href="#"><img src="__PUBLIC__/Uploads/{$vo.picture}" alt="{$vo.name}" /><br />{$vo.name}</a></td>
+									 <td align="middle"><a class="a1" href="{:U('Home/Index/chanpin',array('id'=>$vo['id']))}"><img src="__PUBLIC__/Uploads/{$vo.picture}" alt="{$vo.name}" /><br />{$vo.name}</a></td>
 								 </foreach>
 							 </tr>
 							</tbody>

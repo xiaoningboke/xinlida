@@ -1,0 +1,107 @@
+.banner {
+    width: 100%;
+    text-align: center;
+    margin-top: 2px;
+}
+.banner img{
+    width: 100%;
+}
+/*关于我们*/
+
+.lgywm {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.lgywm_title {
+    width: 100%;
+    height: auto;
+}
+.xian {
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px solid #d7d8d8;
+}
+.lwenzi {
+    width: 110px;
+    height: auto;
+    text-align: center;
+    background-color: #FFF;
+    margin: -20px auto 0px;
+}
+.lwenzi p {
+    font-size: 12px;
+    color: #333;
+    line-height: 1.6em;
+}
+.lwenzi p strong {
+    font-size: 1.5em;
+}
+.lgywm_wz {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    padding: 3% 0px;
+}
+.lgywm_wz p {
+    font-size: 1.2em;
+    line-height: 1.8em;
+    color: #333;
+    padding: 0px 10px;
+    text-indent: 2.4em;
+}
+/*更多按钮*/
+
+.angd {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+.angd a {
+    width: auto;
+    height: 40px;
+    padding: 0px 20px;
+    color: #999;
+    display: block;
+    font-size: 14px;
+    line-height: 40px;
+    border: 1px solid #d7d8d8;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+/*无缝滚动*/
+#div1{ width: 100%; position: relative; margin: 100px auto;overflow: hidden;}
+#div1 ul { width:100%; height: 250px; position: relative; }
+#div1 ul li { height: 250px; float: left; list-style: none; padding-right:20px;}
+#div1 ul li img { width: 200px; height: 150px; display: inline-block;}
+a{ color: #B4B4B4; }
+
+
+.news-content {
+    background: url("../../images/news-content.jpg");
+    line-height: 34px;
+    margin-left: 5px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: left;
+}
+.news-content ul {
+    line-height: 34px;
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+}
+.news-content li {
+    line-height: 34px;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 30px;
+}
+.news-content span {
+    font-size: 12px;
+    color: #CCCCCC;
+    text-align: left;
+}

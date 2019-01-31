@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>[title]</title>
+    <meta name="keywords" content="{$config.keywords}" />
+    <meta name="description" content="{$config.description}" />
+    <link type="text/css" href="__PUBLIC__/m/css/style.css" rel="stylesheet">
+    <link type="text/css" href="__PUBLIC__/m/css/component.css" rel="stylesheet" />
+    <link rel="stylesheet" href="__PUBLIC__/css/base.css">
+
+    <script type="text/javascript" src="__PUBLIC__/m/js/jquery.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/m/js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/m/js/jquery.dlmenu.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <a href="http://{$config.url}" class="logo">{$config.name}</a>
+    <div id="dl-menu" class="dl-menuwrapper">
+        <button id="dl-menu-button">Open Menu</button>
+        <ul class="dl-menu">
+            <li><a href="{:U('Home/Index/index')}">首页</a></li>
+            <li><a href="{:U('Home/Index/gsjj')}">公司简介</a></li>
+            <li><a href="{:U('Home/Index/product')}">产品中心</a></li>
+            <li><a href="{:U('Home/Index/xhzy')}">现货资源</a></li>
+            <li><a href="{:U('Home/Index/kczy')}">库存资源</a></li>
+            <li><a href="{:U('Home/Index/hqzx')}">行情资讯</a></li>
+            <li><a href="{:U('Home/Index/lxfs')}">联系方式</a></li>
+            <li><a href="{:U('Home/Index/jsq')}">计算器</a></li>
+        </ul>
+    </div>
+</header>

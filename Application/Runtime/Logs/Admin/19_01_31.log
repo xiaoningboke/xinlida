@@ -1,0 +1,146 @@
+[ 2019-01-31T09:18:57+08:00 ] ::1 /xinlida/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000563s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005154s ]
+
+[ 2019-01-31T09:19:00+08:00 ] ::1 /xinlida/index.php/Admin/Index/showNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2019-01-31T09:19:09+08:00 ] ::1 /xinlida/index.php/Admin/Index/addNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 103 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 103 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 104 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 104 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant editorValue - assumed 'editorValue' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant classify - assumed 'classify' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 106 行.
+NOTIC: [8] Use of undefined constant classify - assumed 'classify' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 106 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 107 行.
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0191s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0087s ]
+SQL: INSERT INTO `xld_article` (`title`,`time`,`content`,`classify`,`fenlei`) VALUES ('商城后台管理模板','','<p>qwqww</p>','1','0') [ RunTime:0.0106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2019-01-31T09:19:10+08:00 ] ::1 /xinlida/index.php/Admin/Index/showNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2019-01-31T09:19:18+08:00 ] ::1 /xinlida/index.php/Admin/Index/addNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 103 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 103 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 104 行.
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 104 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant editorValue - assumed 'editorValue' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant classify - assumed 'classify' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 106 行.
+NOTIC: [8] Use of undefined constant classify - assumed 'classify' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 106 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 107 行.
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0078s ]
+SQL: INSERT INTO `xld_article` (`title`,`time`,`content`,`classify`,`fenlei`) VALUES ('qwqwqwqw','2019/01/31','<p>qwwwwwwwwwwwwwww</p>','1','0') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2019-01-31T09:19:19+08:00 ] ::1 /xinlida/index.php/Admin/Index/showNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+

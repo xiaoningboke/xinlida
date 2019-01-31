@@ -78,7 +78,7 @@
 									<table cellspacing="0" cellpadding="4" width="2150" border="0" >
 										<tbody>
 										<tr>
-											<?php if(is_array($cp)): foreach($cp as $key=>$vo): ?><td align="middle"><a class="a1" href="#"><img src="/xinlida/Public/Uploads/<?php echo ($vo["picture"]); ?>" alt="<?php echo ($vo["name"]); ?>" /><br /><?php echo ($vo["name"]); ?></a></td><?php endforeach; endif; ?>
+											<?php if(is_array($cp)): foreach($cp as $key=>$vo): ?><td align="middle"><a class="a1" href="<?php echo U('Home/Index/chanpin',array('id'=>$vo['id']));?>"><img src="/xinlida/Public/Uploads/<?php echo ($vo["picture"]); ?>" alt="<?php echo ($vo["name"]); ?>" /><br /><?php echo ($vo["name"]); ?></a></td><?php endforeach; endif; ?>
 										</tr>
 										</tbody>
 									</table></td>
@@ -97,7 +97,7 @@
 						   <table cellspacing="0" cellpadding="4" width="2150" border="0" id="tupian">
 							<tbody>
 							 <tr>
-								 <?php if(is_array($cp)): foreach($cp as $key=>$vo): ?><td align="middle"><a class="a1" href="#"><img src="/xinlida/Public/Uploads/<?php echo ($vo["picture"]); ?>" alt="<?php echo ($vo["name"]); ?>" /><br /><?php echo ($vo["name"]); ?></a></td><?php endforeach; endif; ?>
+								 <?php if(is_array($cp)): foreach($cp as $key=>$vo): ?><td align="middle"><a class="a1" href="<?php echo U('Home/Index/chanpin',array('id'=>$vo['id']));?>"><img src="/xinlida/Public/Uploads/<?php echo ($vo["picture"]); ?>" alt="<?php echo ($vo["name"]); ?>" /><br /><?php echo ($vo["name"]); ?></a></td><?php endforeach; endif; ?>
 							 </tr>
 							</tbody>
 						   </table></td>
