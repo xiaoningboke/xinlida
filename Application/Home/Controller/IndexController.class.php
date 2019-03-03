@@ -136,4 +136,11 @@ class IndexController extends CommonController {
     public function lxfs(){
         $this->display();
     }
+
+    /**
+     * 显示计算器
+     */
+    public function jisuanqi(){
+        $this->display();
+    }
 }

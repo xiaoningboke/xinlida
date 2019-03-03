@@ -31,6 +31,7 @@
                     <li><a href="<?php echo U('Home/Index/kczy');?>">库存资源</a></li>
                     <li><a href="<?php echo U('Home/Index/hqzx');?>">行情资讯</a></li>
                     <li><a href="<?php echo U('Home/Index/lxfs');?>">联系方式</a></li>
+                    
                 </ul>
             </div>
         </div>

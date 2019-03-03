@@ -2,7 +2,7 @@
         <html lang="en">
         <head>
             <meta charset="UTF-8">
-            <title>现货资源-{<?php echo ($config["name"]); ?>}</title>
+            <title>现货资源-<?php echo ($config["name"]); ?></title>
             <link rel="stylesheet" href="/xinlida/Public/css/base.css">
             <link rel="stylesheet" href="/xinlida/Public/css/header.css">
             <link rel="stylesheet" href="/xinlida/Public/css/public.css">

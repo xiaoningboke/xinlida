@@ -1,0 +1,135 @@
+<include file="Public/public" title="计算器-{$config.name}"/>
+<link rel="stylesheet" href="__PUBLIC__/css/jisuanqi.css">
+<div class="main">
+    <div class="bannerny" style="background: url('__PUBLIC__/Uploads/{$picdata[2][url]}') no-repeat center center;"></div>
+
+    <div class="main-info">
+
+            <include file="Public/left"/>
+
+            <!--右侧-->
+            <div class="main-infonc">
+                <div class="info-title">计算器</div>
+                <div class="info-contentn" style="padding-top: 25px;">
+                      <div class="box">
+                         <ul>
+                             <li class="current">无缝钢管</li>
+                             <li>圆钢重量</li>
+                             <li>方矩管重量</li>
+                         </ul>
+                         <span class="show">
+                             <div>
+                                <br>
+                                 壁厚:<input type="text" id="wfbh" onkeyup="enfocus()">
+                                 外径:<input type="text" id="wfwj" onkeyup="enfocus()">
+                                 长度:<input type="text" id="wfcd" onkeyup="enfocus()">
+                                 数量:<input type="text" id="wfsl" onkeyup="enfocus()"><br><br>
+                                 理论重量:<input type="text" id="wfzl" readonly onkeyup="enfocus()"><br>
+                                 理论重量X长度:<input type="text" id="wfzlcd" readonly onkeyup="enfocus()"><br>
+                                 理论总重量:<input type="text" id="wfzzl" readonly onkeyup="enfocus()"><br>
+                             </div>
+                         </span>
+                         <span>
+                             <div>
+                                <br>
+                                 外径:<input type="text" id="ygwj" onkeyup="enfocus()">
+                                 长度:<input type="text" id="ygcd" onkeyup="enfocus()">
+                                 数量:<input type="text" id="ygsl" onkeyup="enfocus()"><br><br>
+                                 理论重量:<input type="text" id="ygzl" readonly onkeyup="enfocus()"><br>
+                                 理论重量X长度:<input type="text" id="ygzlcd" readonly onkeyup="enfocus()"><br>
+                                 理论总重量:<input type="text" id="ygzzl" readonly onkeyup="enfocus()"><br>
+                             </div>
+                         </span>
+                         <span>
+                             <div>
+                                  <br>
+                                 长:<input type="text" id="fjc" onkeyup="enfocus()">
+                                 宽:<input type="text" id="fjk" onkeyup="enfocus()">
+                                 壁厚:<input type="text" id="fjbh" onkeyup="enfocus()"><br>
+                                长度:<input type="text" id="fjcd" onkeyup="enfocus()">
+                                 数量:<input type="text" id="fjsl" onkeyup="enfocus()"><br><br>
+                                 理论重量:<input type="text" id="fjzl" readonly onkeyup="enfocus()"><br>
+                                 理论重量X长度:<input type="text" id="fjzlcd" readonly onkeyup="enfocus()"><br>
+                                 理论总重量:<input type="text" id="fjzzl" readonly onkeyup="enfocus()"><br>
+                             </div>
+                         </span>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<include file="Public/footer"/>
+<script>
+
+    function enfocus(){
+
+         var fjc = document.getElementById("fjc").value;
+         var fjk = document.getElementById("fjk").value;
+         var fjbh = document.getElementById("fjbh").value;
+         var fjcd = document.getElementById("fjcd").value;
+         var fjsl = document.getElementById("fjsl").value;
+
+         var fjzl = (2*(parseFloat(fjc)+parseFloat(fjk))*parseFloat(fjbh)*7.85).toFixed(3);
+         var fjzlcd = (2*(parseFloat(fjc)+parseFloat(fjk))*parseFloat(fjbh)*7.85*parseFloat(fjcd)).toFixed(3);
+         var fjzzl = (2*(parseFloat(fjc)+parseFloat(fjk))*parseFloat(fjbh)*7.85*parseFloat(fjcd)*parseFloat(fjsl)).toFixed(3);
+
+
+         document.getElementById("fjzl").value = fjzl;
+         document.getElementById("fjzlcd").value = fjzlcd;
+         document.getElementById("fjzzl").value = fjzzl;
+
+
+         var ygwj = document.getElementById("ygwj").value;
+         var ygcd = document.getElementById("ygcd").value;
+         var ygsl = document.getElementById("ygsl").value;
+
+         var ygzl = (0.00617*parseFloat(ygwj)*parseFloat(ygwj)).toFixed(3);
+         var ygzlcd = (0.00617*parseFloat(ygwj)*parseFloat(ygwj)*parseFloat(ygcd)).toFixed(3);
+         var ygzzl = (0.00617*parseFloat(ygwj)*parseFloat(ygwj)*parseFloat(ygcd)*parseFloat(ygsl)).toFixed(3);
+
+
+         document.getElementById("ygzl").value = ygzl;
+         document.getElementById("ygzlcd").value = ygzlcd;
+         document.getElementById("ygzzl").value = ygzzl;
+
+
+
+
+         var wfbh = document.getElementById("wfbh").value;
+         var wfwj = document.getElementById("wfwj").value;
+         var wfcd = document.getElementById("wfcd").value;
+         var wfsl = document.getElementById("wfsl").value;
+
+         var wfzl = (0.02466*parseFloat(wfbh)*(parseFloat(wfwj)-parseFloat(wfbh))).toFixed(3);
+         var wfzlcd = (0.02466*parseFloat(wfbh)*(parseFloat(wfwj)-parseFloat(wfbh))*parseFloat(wfcd)).toFixed(3);
+         var wfzzl = (0.02466*parseFloat(wfbh)*(parseFloat(wfwj)-parseFloat(wfbh))*parseFloat(wfcd)*parseFloat(wfsl)).toFixed(3);
+
+
+         document.getElementById("wfzl").value = wfzl;
+         document.getElementById("wfzlcd").value = wfzlcd;
+         document.getElementById("wfzzl").value = wfzzl;
+     }
+
+      var boxArr = document.getElementsByClassName("box");
+    for (var i = 0;i<boxArr.length;i++){
+        fn(boxArr[i]);
+    }
+    function fn(ele) {
+        var liArr = ele.getElementsByTagName("li");
+        var spanArr = ele.getElementsByTagName("span");
+        for (var i = 0 ;i<liArr.length;i++){
+            liArr[i].setAttribute("index",i);
+            liArr[i].onclick = function () {
+                for (var j = 0;j<liArr.length;j++){
+                    liArr[j].removeAttribute("class");
+                    spanArr[j].removeAttribute("class");
+                }
+                this.setAttribute("class","current");
+                spanArr[this.getAttribute("index")].setAttribute("class","show");
+            }
+        }
+    }
+     
+   
+
+</script>

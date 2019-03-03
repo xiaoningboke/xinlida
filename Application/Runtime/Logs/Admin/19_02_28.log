@@ -1,0 +1,372 @@
+[ 2019-02-28T18:38:13+08:00 ] ::1 /xinlida/index.php/admin/Index/hqzx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000954s ]
+
+[ 2019-02-28T18:38:24+08:00 ] ::1 /xinlida/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2019-02-28T18:38:27+08:00 ] ::1 /xinlida/index.php/Admin/Index/jbpz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `xld_config` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `xld_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2019-02-28T18:38:29+08:00 ] ::1 /xinlida/index.php/Admin/Index/xhzy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `xld_article` WHERE `title` = '现货资源' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2019-02-28T18:38:46+08:00 ] ::1 /xinlida/index.php/Admin/Index/xhzy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `xld_article` WHERE `title` = '现货资源' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001892s ]
+
+[ 2019-02-28T18:38:46+08:00 ] ::1 /xinlida/index.php/Admin/Index/xhzy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003222s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `xld_article` WHERE `title` = '现货资源' LIMIT 1   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002733s ]
+
+[ 2019-02-28T18:38:46+08:00 ] ::1 /xinlida/index.php/Admin/Index/xhzy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003082s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0094s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `xld_article` WHERE `title` = '现货资源' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002359s ]
+
+[ 2019-02-28T18:38:46+08:00 ] ::1 /xinlida/index.php/Admin/Index/xhzy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `xld_article` WHERE `title` = '现货资源' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001494s ]
+
+[ 2019-02-28T18:38:47+08:00 ] ::1 /xinlida/index.php/Admin/Index/xhzy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `xld_article` WHERE `title` = '现货资源' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2019-02-28T18:39:23+08:00 ] ::1 /xinlida/index.php/Admin/Index/fenleiList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `xld_fenlei` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `xld_fenlei` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xld_fenlei`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2019-02-28T18:39:26+08:00 ] ::1 /xinlida/index.php/Admin/Index/showNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2019-02-28T18:39:27+08:00 ] ::1 /xinlida/index.php/Admin/Index/newsList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `xld_article` WHERE `classify` = 1 ORDER BY id DESC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2019-02-28T18:39:30+08:00 ] ::1 /xinlida/index.php/Admin/Index/xhzy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `xld_article` WHERE `title` = '现货资源' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2019-02-28T18:39:46+08:00 ] ::1 /xinlida/index.php/Admin/Index/upGsjj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+NOTIC: [8] Use of undefined constant content - assumed 'content' E:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant editorValue - assumed 'editorValue' E:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 82 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Controller\IndexController.class.php 第 83 行.
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0080s ]
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpStudy\PHPTutorial\WWW\xinlida\Application\Admin\Model\ArticleModel.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0066s ]
+SQL: UPDATE `xld_article` SET `content`='<h3 style=\"white-space: normal; padding: 0px; margin: 0px; text-align: center;\">无缝钢管现货资源</h3><p style=\"white-space: normal;\"><span style=\"color: rgb(51, 51, 51); font-family: 微软雅黑, arial; font-size: 14px;\">　　无缝钢管公司经过十年的发展，目前经营的无缝钢管规格已经达到近千种，应该范围涉及各个行业，优质的产品与低廉的价格是坤联钢材给您的保证！常年库存的材质：20#、35#、45#、27SiMn、16Mn、15CrMo、20CrMo、40Cr、20G、12CrlMoV等。</span><br style=\"color: rgb(51, 51, 51); font-family: 微软雅黑, arial; font-size: 14px;\"/><br style=\"color: rgb(51, 51, 51); font-family: 微软雅黑, arial; font-size: 14px;\"/></p><table width=\"99%\" height=\"364\" align=\"center\" cellpadding=\"0\" cellspacing=\"1\" bgcolor=\"#ebebed\"><tbody><tr efffef=\"\" class=\"firstRow\"><td width=\"15%\" height=\"24\" align=\"center\" bgcolor=\"#FFFFFF\"><strong>产品类别</strong></td><td width=\"23%\" align=\"center\" bgcolor=\"#FFFFFF\"><strong>主要材质</strong></td><td width=\"21%\" align=\"center\" bgcolor=\"#FFFFFF\"><strong>执行标准</strong></td><td width=\"21%\" align=\"center\" bgcolor=\"#FFFFFF\"><strong>用途</strong></td><td width=\"20%\" align=\"center\" bgcolor=\"#FFFFFF\"><strong>规格范围</strong></td></tr><tr><td height=\"24\" align=\"center\" bgcolor=\"#FFFFFF\"><strong>无缝钢管</strong></td><td bgcolor=\"#FFFFFF\">20#、35#、45#、16Mn 27SiMn</td><td bgcolor=\"#FFFFFF\">GB/T8162-2008<br/>GB/T8163-2008<br/>GB3087-2008<br/>GB5310-2008&nbsp;<br/>GB6479-2000<br/>GB9948-2006<br/>GB5312-1998</td><td bgcolor=\"#FFFFFF\">用于汽车、摩托车、工程机械、千斤顶、电动工具及运动器材等其他领域所用的<a href=\"http://www.yaogangguan.cn/\" style=\"color: rgb(51, 51, 51); cursor: pointer; text-decoration-line: none;\">无缝钢管</a></td><td align=\"center\" bgcolor=\"#FFFFFF\">∮8-824×1.5-100</td></tr><tr><td height=\"24\" align=\"center\" bgcolor=\"#FFFFFF\"><strong>流体管</strong></td><td bgcolor=\"#FFFFFF\">20、Q345</td><td bgcolor=\"#FFFFFF\">GB/T8163-2008</td><td bgcolor=\"#FFFFFF\">流体输送</td><td align=\"center\" bgcolor=\"#FFFFFF\">∮8-630×1.5-40</td></tr><tr><td height=\"24\" align=\"center\" bgcolor=\"#FFFFFF\"><strong>结构管</strong></td><td bgcolor=\"#FFFFFF\">10、20、35、45、 16Mn Q345B</td><td bgcolor=\"#FFFFFF\">GB/T8162-2008</td><td bgcolor=\"#FFFFFF\">一般结构用</td><td align=\"center\" bgcolor=\"#FFFFFF\">∮6-610×1.5-40</td></tr><tr><td height=\"24\" align=\"center\" bgcolor=\"#FFFFFF\"><strong>合金管</strong></td><td bgcolor=\"#FFFFFF\">12Cr1MoV<br/>P22(10CrMo910)<br/>T91、P91、P9、T9<br/>WB36、Cr5Mo(P5、STFA25、T5、)<br/>15CrMo(P11、P12、STFA22)<br/>13CrMo44、Cr5Mo、15CrMo、25CrMo、30CrMo、40CrMo<br/></td><td bgcolor=\"#FFFFFF\">DIN17175-79<br/>JISG3467-88<br/>JISG3458-88　 GB5310-95&nbsp;<br/>GB9948-88<br/>ASTMA335/A335m<br/>ASTMA213/A213m</td><td bgcolor=\"#FFFFFF\">石油、化工、电力、锅炉行业的耐高温、耐低温、耐腐蚀用无缝钢管</td><td align=\"center\" bgcolor=\"#FFFFFF\">∮16-824×2-100</td></tr><tr><td height=\"43\" align=\"center\" bgcolor=\"#FFFFFF\"><strong>石油套管</strong></td><td bgcolor=\"#FFFFFF\">J55　　N80</td><td bgcolor=\"#FFFFFF\">API &nbsp;SPEC &nbsp;5CT</td><td bgcolor=\"#FFFFFF\">油井用油管、接箍料管</td><td align=\"center\" bgcolor=\"#FFFFFF\">∮60-630×1.53-40</td></tr><tr><td height=\"43\" align=\"center\" bgcolor=\"#FFFFFF\"><strong>高压锅炉管</strong></td><td bgcolor=\"#FFFFFF\">20G、A106c<br/>ST45.8/3</td><td bgcolor=\"#FFFFFF\">GB5310-95<br/>ASTMA106-99<br/>DIN17175-79</td><td bgcolor=\"#FFFFFF\">高压锅炉用耐热无缝钢管</td><td align=\"center\" bgcolor=\"#FFFFFF\">∮16-824×2-65</td></tr><tr><td height=\"24\" align=\"center\" bgcolor=\"#FFFFFF\"><strong>低中压锅炉管</strong></td><td bgcolor=\"#FFFFFF\">10、20</td><td bgcolor=\"#FFFFFF\">GB3087-1999</td><td bgcolor=\"#FFFFFF\">低中压锅炉、过热用管、 沸水管、机车、 大小烟管</td><td align=\"center\" bgcolor=\"#FFFFFF\">∮10-530×2-40</td></tr><tr><td height=\"24\" align=\"center\" bgcolor=\"#FFFFFF\"><strong>石油裂化管</strong></td><td bgcolor=\"#FFFFFF\">20<br/>12CrMo<br/>15CrMo</td><td bgcolor=\"#FFFFFF\">GB9948-88</td><td bgcolor=\"#FFFFFF\"><p>石油炼精厂的炉管、热交换管、管道用无缝管</p></td><td align=\"center\" bgcolor=\"#FFFFFF\">∮10.530×1.5-36</td></tr><tr><td height=\"24\" align=\"center\" bgcolor=\"#FFFFFF\"><strong>化肥设备用高压无缝管</strong></td><td bgcolor=\"#FFFFFF\">20、16Mn、Q345</td><td bgcolor=\"#FFFFFF\">GB6479-2000</td><td bgcolor=\"#FFFFFF\">化肥设备、管道</td><td align=\"center\" bgcolor=\"#FFFFFF\">∮25-426×6-40</td></tr><tr><td height=\"24\" align=\"center\" bgcolor=\"#FFFFFF\"><strong>液压支柱管</strong></td><td bgcolor=\"#FFFFFF\">27SiMn</td><td bgcolor=\"#FFFFFF\">GB/T17396-1998</td><td bgcolor=\"#FFFFFF\">液压支架&nbsp;<br/>液压支柱</td><td align=\"center\" bgcolor=\"#FFFFFF\">∮70-377×9-40</td></tr><tr><td height=\"24\" align=\"center\" bgcolor=\"#FFFFFF\"><strong>船用管</strong></td><td bgcolor=\"#FFFFFF\">410</td><td bgcolor=\"#FFFFFF\">GB/T5312-1999</td><td bgcolor=\"#FFFFFF\">制造船舶专用耐压管、锅炉及过热器用管</td><td align=\"center\" bgcolor=\"#FFFFFF\">∮14-426*1.5-4.5</td></tr><tr><td height=\"24\" align=\"center\" bgcolor=\"#FFFFFF\"><strong>管线管</strong></td><td bgcolor=\"#FFFFFF\">B级</td><td bgcolor=\"#FFFFFF\">API</td><td bgcolor=\"#FFFFFF\">石油、天然气 工业输送气、 水、油</td><td align=\"center\" bgcolor=\"#FFFFFF\">∮60-630×1.53-40<br/><br/></td></tr></tbody></table><p><br/></p>',`title`='现货资源' WHERE `title` = '现货资源' [ RunTime:0.0848s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2019-02-28T18:39:47+08:00 ] ::1 /xinlida/index.php/Admin/Index/xhzy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `xld_article` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `xld_article` WHERE `title` = '现货资源' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2019-02-28T18:55:37+08:00 ] ::1 /xinlida/index.php/Admin/Index/xhzy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001140s ]
+
+[ 2019-02-28T18:55:39+08:00 ] ::1 /xinlida/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000195s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+
