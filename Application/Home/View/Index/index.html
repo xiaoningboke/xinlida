@@ -84,7 +84,7 @@
 					<div class="news-content">
 						<ul>
 							<foreach name="rdzx" item="vo" >
-								<li><a href="#">{$vo.title}</a><span>{$vo.time}</span></li>
+								<li><a href="{:U('Home/Index/news',array('id'=>$vo['id']))}">{$vo.title}</a><span>{$vo.time}</span></li>
 							</foreach>
 						</ul>
 					</div>
